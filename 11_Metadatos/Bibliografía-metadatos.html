@@ -1,0 +1,90 @@
+<!--Noveno ejercicio de creación de archivos HTML, con CSS-->
+<!--A continuación se define el tipo de documento-->
+<!DOCTYPE html>
+<!-- A continuación se define el idioma del archivo HTML-->
+<html lang="es">
+    <!--A continuación se definen los metadatos del archivo HTML-->
+    <head>
+        <meta charset="utf-8">
+        <title>Bibliografía</title>
+        <meta name="author" content="Alejandro Castro">
+        <meta name="generator" content="Visual Studio Code">
+        <meta name="keywords" content="Ejercicio, Curso web, learning, enseñanza, html">
+        <meta name="description" content="Ejercicio de clase del curso de desarrollo de aplicaciones con tecnología web">
+        <link rel="stylesheet" href="CSS/hoja-css.html">
+        <!--Esto es un estilo css embebido. Se ponen en el head. Predominan sobre los estilos independientes. Va entre {} y no lleva comillas-->
+        <style>
+        h1, h2, strong {color:red}
+        h1, h2 {font-size:24px}
+        p.p1 {font-size:18px; color:blue;}
+        p.p2 {font-size:14px; color:green;}
+        </style>
+    </head>
+    <!--A cotinuación se define el cuerpo del archivo HTML-->
+    <body>
+        <!--El ejercicio consiste en la utilización de clases tanto como metadatos como para CSS-->
+        <header>
+            <!--Esto es un estilo css en linea-->
+            <h1>Neuromante</h1>
+            <h2>William Gibson</h2>
+        </header>
+        <div class="Biblio"> 
+             <!-- Para cada elemento de la bibliografía usaremos el siguiente formato
+			<p class="Biblio">
+				<span class="Titulo">..</span>
+				(<span class="Tít_Original">..</span>,
+				<span>..</span>).
+				<span class="Serie">..</span>.
+				<span class="Autor">..</span>.
+				<span class="Editorial">..</span>,
+				<span class="Fecha_Edicion">..</span>.</p>-->
+			<p class="Biblio" title="Neuromante">
+				<cite class="Titulo">Neuromante</cite>
+				(<cite class="Tít_Original">Neuromancer</cite>,
+				<time class="Fecha_Original">1984</time>).
+				<span class="Serie">Trilogia del Sprawl [1]</span>.
+				<strong class="Autor">William Gibson</strong>.
+				<span class="Editorial">Minotauro</span>,
+				<time class="Fecha_Edicion">1989</time>.</p>
+			<p class="Biblio" title="Islas en La Red">
+				<cite class="Titulo">Islas en La Red</cite>
+				(<cite class="Tít_Original">Islands in the Net</cite>,
+				<time class="Fecha_Original">1988</time>).
+				<strong class="Autor">Bruce Sterling</strong>.
+				<span class="Editorial">Destino</span>,
+				<time class="Fecha_Edicion">1990</time>.</p>
+			<p class="Biblio" title="Snow Crash">
+				<cite class="Titulo">Snow Crash</cite>
+				(<cite class="Tít_Original">Snow Crash</cite>,
+				<time class="Fecha_Original">1992</time>).
+				<strong class="Autor">Neal Stephenson</strong>.
+				<span class="Editorial">Gigamesh</span>,
+				<time class="Fecha_Edicion">2000</time>.</p>
+			<p class="Biblio" title="El Sueño Del Rey Rojo">
+				<cite class="Titulo">El Sueño Del Rey Rojo</cite>
+				(<cite class="Tít_Original">El Sueño Del Rey Rojo</cite>,
+				<time class="Fecha_Original">2004</time>).
+				<strong class="Autor">Rodolfo Martínez</strong>.
+				<span class="Editorial">Gigamesh</span>,
+				<time class="Fecha_Edicion">2004</time>.</p>
+			<p class="Biblio" title="La Chica Mecánica">
+				<cite class="Titulo">La Chica Mecánica</cite>
+				(<cite class="Tít_Original">The Windup Girl</cite>,
+				<time class="Fecha_Original">2009</time>).
+				<strong class="Autor">Paolo Bacigalupi</strong>.
+				<span class="Editorial">Plaza y Janés</span>,
+				<time class="Fecha_Edicion">2011</time>.</p>
+		</div>
+       <article>          
+           <p title="La novela" class="p1">Un futuro invadido por microprocesadores, en el que la información es la materia prima. Vaqueros como <strong>Henry Dorrett Case</strong> se ganan la vida hurtando información, traspasando defensas electrónicos, bloques tangibles y luminosos, como rascacielos geoméricos. En este espeluznante y sombrío futuro la mayor parte del este de Norteamérica es una única y gigantesca ciudad, el <strong>Sprawl</strong>, casi toda Europa un vertedero atómico y Japón una jungla de neón, computadora y brillante, donde una persona es la suma de sus vicios.</p>
+           <p title="El autor" class="p2">Willian Gibson cuya primera novela El Neuromante puede llamarse la novela <strong>ciberpunk</strong>, es la llanta más refulgente del movimiento. Épica en escala, mezcla alta tecnología con una sensibilidad de cine negro, una especie de Homero que escribe la Odisea saliéndose de microchips.</p>
+           <blockquote>El cielo sobre el puerto tenía el color de una pantalla de televisión</blockquote>
+       </article>
+        <aside>
+        </aside>
+        <footer>
+            <a href="https://es.wikipedia.org/wiki/Neuromante">Más información sobre Neuromante</a>​
+            <p>Ejercicio realizado por Alejandro Castro</p>
+        </footer>
+     </body>
+</html>
