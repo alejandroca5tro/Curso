@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Menu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {box-sizing: border-box}
+        /*ahora vamos a definir un menú de botones*/        
+        nav {
+            width: 50%;
+            border: 1px solid black;
+            /*hasta aquí, no se ve porque no lleva un overflow, entonces, se colapsa. No la detecta. A nivel de estilo, está respetando la dimensión definida para el nav. Así que el overflow no habría que dárselo al nav porque no es el que tiene elementos dentro... sino al ul. Eso es lo correcto, para que el nav reaccione respecto a lo que contiene, que es ul, que es el que debe reaccionar a lo que contiene. Es lo correcto aunque probablemente en este caso no importaría que se lo dieras al nav.*/
+            }
+        ul {
+            width: 100%;
+            margin: 0px auto;/*hasta que no le digamos al css que contiene cosas, no contendrá nada. Hay que decirle que tiene cosas dentro con overflow.*/
+            overflow: auto/*da igual que sea auto, lo que importa es que tenga un overflow para que sepa que tiene elementos dentro (que además flotan)*/;
+            padding: 0px/*Esto hay que ponérselo para que evite los márgenes por defecto que el browser le pone a los ul, que están acostumbrados a tener listas*/;
+            }
+        li {
+            list-style: none/*le quitamos los puntitos*/;
+            float:left;
+            width: 25%;
+            height: 4em/*esta altura es la que heredarán los ul y el nav, es muy importante*/;
+            text-align: center;
+            padding: 0.5em;
+            background-color: white;
+            -webkit-transition: all 0.6s;
+            -moz-transition: all 0.6s;
+            transition: all 0.6s;
+            }
+        li:hover {
+            list-style: none/*le quitamos los puntitos*/;
+            float:left;
+            width: 25%;
+            height: 4em/*esta altura es la que heredarán los ul y el nav, es muy importante*/;
+            text-align: center;
+            padding: 0.5em;
+            background-color: black;
+            }
+        p {
+            margin: 6em;
+            clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav>
+            <ul>
+                <!--Lo ideal es que sea el enlace lo que envuelve al elemento y no al contrario<a href="#"><li>Inicio</li></a> pero tengo una gran duda con esto-->
+                <li><a href="#">Inico</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="#">Clientes</a></li>
+				<li><a href="#">Quien Somos</a></li>
+            </ul>
+        </nav>
+        <p>Texto de prueba para comprobar comportamiento<!--En cuanto al párrafo, una cosa es lo que respetan los márgenes y otra cosa es lo que respetan los content--></p>
+    </body>
+</html>
