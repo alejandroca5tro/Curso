@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 3em;
+}
+p {
+    font-family: Montserrat;
+    font-size: 1em;
+}
+p:nth-of-type(1) {
+    text-indent: 50px;/*He utilizado esta propiedad que modifica solo la primera línea, tal como pide el enunciado, en lugar de utilizar el selector p:nth-of-type(1)::first-line con alguna otra propiedad*/
+}
+article p:nth-of-type(1)::first-letter /*Inclyo article y formo este selector combinado para evitar que también se modifique la primera letra del párrafo que hay en footer*/{
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+}
+p:nth-of-type(2) {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 100%;
+}
+p:nth-of-type(2)::first-line {
+    font-size: 1.1em;
+}
+p:nth-of-type(2)::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p:nth-of-type(3) {
+    text-align: right;
+}
+span.author {
+    font-weight: bold;
+    text-decoration: underline;
+    color:blue;
+}
+q,span:lang(fr), span:lang(en) {
+    font-style: italic;
+}
+q {
+    quotes: "\201C" "\201D";
+    color:green;
+}
+footer {    
+    text-align: center;
+    font-family: Montserrat;/*Incluyo font-family, ya que al estar formado el footer por líneas "span", no será modificado a no ser que se indique expresamente*/
+    line-height: 1.2em;
+    font-size: small;
+}

@@ -1,0 +1,15 @@
+ol {
+    list-style-type: decimal-leading-zero;
+}
+ol>li>ol {
+    list-style-type: upper-alpha;
+}
+ol>li>ol>li>ul {
+    list-style-image: url("../images/bullet.png");
+}
+ol>li>ol>li>ul>li:nth-of-type(odd) {
+    color:#000066;
+}
+ol>li>ol>li>ul>li:nth-of-type(even) {
+    color:#333333;
+}
