@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-left: 3%;
+    width: 94%;
+}
+h1 {
+    font-size: 45px;
+    font-family: Montserrat;
+}
+figure {
+    margin-left: 0%;
+    float:left;
+    width: 5px;/*Dándole a figure un valor menor que el ancho de la imagen se permite que otros elementos flotantes, como el recuadro de datos, puedan superponerse. Lo hago así porque en el enunciado se pide expresamente que el recuadro de datos "flote". También podría haberse conseguido ese efecto asignando a figure y a ul "position: absolute" y dando al cuadro de datos el valor "right: (pocos)px"*/
+}
+ul {
+    float: right;
+    width: 380px;
+    margin-top: 50px;
+    padding: 20px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff8533;
+    background-color: hsla(25, 100%, 62%, 0.5);
+    list-style-position: inside;
+    font-family: News Cycle;
+    line-height: 1.3em;
+}
+div {
+    width: 50%;
+    float: left;
+}
+div:nth-of-type(1) {
+    clear: left;
+    padding-right: 3%;
+}
+div p {
+    font-family: Khula;
+}

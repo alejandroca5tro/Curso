@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    margin: 0%;
+    padding: 0.2em;
+}
+div {
+
+    width: 200px;
+}
+div:nth-of-type(1) {​
+    background: #0070d1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(180deg, #0070d1, #85c6ff);/*He optado por utilizar deg porque es el mismo valor para todos los navegadores. Según w3schools, las indicaciones direccionales mediante texto, como top left, son distintas para cada tipo de navegador*//* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #0070d1, #85c6ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #0070d1, #85c6ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #0070d1, #85c6ff); /* Standard syntax */
+}​
+div:nth-of-type(2) {​
+    background-color: hsla(148, 73%, 54%, 1);/*No logro averiguar porqué no se muestra el color de fondo*/
+}
+div:nth-of-type(3) {​
+    background: #ef25da; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(0deg, #ef25da, #f89bee);/*He optado por utilizar deg porque es el mismo valor para todos los navegadores. Según w3schools, las indicaciones direccionales mediante texto, como top left, son distintas para cada tipo de navegador*//* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #ef25da, #f89bee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, #ef25da, #f89bee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, #ef25da, #f89bee); /* Standard syntax */
+}​
