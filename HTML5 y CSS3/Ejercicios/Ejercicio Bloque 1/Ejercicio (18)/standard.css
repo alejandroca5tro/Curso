@@ -4,6 +4,11 @@
 body {
     margin-left: 3%;
     width: 94%;
+    background-color: #fce5b8;/*En caso de que no se cargue la imagen. Es un tono muy similar al de la figura de la imagen de fondo*/
+    background-image: url("images/africa.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
 }
 h1 {
     font-size: 45px;
@@ -30,6 +35,7 @@ ul {
 div {
     width: 50%;
     float: left;
+
 }
 div:nth-of-type(1) {
     clear: left;
@@ -37,4 +43,19 @@ div:nth-of-type(1) {
 }
 div p {
     font-family: Khula;
+}
+div img {
+    padding: 20px;
+    width: 380px;
+    max-width: 50%;
+    float: left;
+}
+footer div{
+    margin-top: 200px;
+    font-family: Khula;
+}
+footer img {
+    padding: 20px;
+    width: 100px;
+    float: left;
 }

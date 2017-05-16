@@ -16,8 +16,11 @@
     </head>
     <body>
         <form method="post" action="https://www.google.es/search"><!--No se indica el tipo de archivo porque...¿?-->
+        <!--Ponemos la web de google por poner alguna. Nos va a dar error en cualquier caso-->
             <fieldset>
-                <legend>Datos personales - post</legend>
+                <legend>Datos personales - post
+                     
+                </legend>
                 <p>
                     <label for="first_name">Escribe tu nombre</label>
                     <input  type="text"
@@ -52,11 +55,6 @@
                     <label for="opinioln">Danos tu opinión</label>
                     <textarea rows="10" cols="25" name="opinion" maxlength="400"></textarea>
                 </p>
-                <p>
-                    <input  type="submit"
-                            name="send"
-                            value="Enviar">
-                </p>
             </fieldset>
             <fieldset>
                 <legend>Opciones</legend>
@@ -74,15 +72,38 @@
                 </ul>
                 <p>
                     Seleccionar un color
-                    <select>
-                        <option value="red">Rojo</option>
-                        <option value="green">Verde</option>
-                        <option value="blue">Azul</option>
-                        <option value="yellow">Amarillo</option>
-                        <option value="cyan">Cyan</option>
-                        <option value="magenta">Magenta</option>
-                        <!--Importante poner el name. Solo 1, que es el que irá asociado al select.-->
+                    <select name="color">
+                        <optgroup label="primarios">
+                            <option value="red">Rojo</option>
+                            <option value="green">Verde</option>
+                            <option value="blue">Azul</option>
+                        </optgroup>
+                        <optgroup label="secundarios">
+                            <option value="yellow">Amarillo</option>
+                            <option value="cyan">Cyan</option>
+                            <option value="magenta">Magenta</option>
+                        </optgroup>
+                        <!--optgroup permite agregar grupos dentro de la selección-->
                     </select>
+                    <!--Importante poner el name. Solo 1, que es el que irá asociado al select.-->
+                </p>
+                <p>
+                    <datalist id="listacolores">
+                            <option>Rojo</option>
+                            <option>Verde</option>
+                            <option>Azul</option>
+                            <option>Amarillo</option>
+                            <option>Cyan</option>
+                            <option>Magenta</option>
+                    </datalist>
+                    <!--Son muy parecidos a los option, una mezcla entre un input selection y un option. Invocamos dentro un input la lista que queramos. Y permite también escribir el valor que queramos. En windows se conoce como un combobox, que permite seleccionar y escribir el que queramos. También se puede poner el atributo value dentro de option, aunque no suele tener mucho sentido ya que si puede meter lo que el quiera, no va a mneter el valor que nosotros quisiéramos "codificado" a nuestra forma.-->
+                    <input type="text" name="colores2" list="listacolores">
+                </p>
+                <hr>
+                <p>
+                    <input  type="submit"
+                            name="send"
+                            value="Enviar">
                 </p>
             </fieldset>
         </form>
