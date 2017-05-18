@@ -1,2 +1,5 @@
-#Ejercicios de HTML5 y CSS3
-En esta carpeta (y las que contiene) se colocan los archivos generados por los ejercicios de clase realizados durante el aprendizaje de HTML5 y CSS3
+# HTML5 y CSS3
+Unidad 1: HTML5 Y CSS3
+
+Ejercicios de HTML5 y CSS3
+En esta carpeta se colocan los archivos generados para las prácticas de clase realizadas durante el aprendizaje de HTML5 y CSS3.
