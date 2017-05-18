@@ -6,5 +6,5 @@ En esta carpeta se colocan los archivos generados para las prácticas de clase r
 
 # Directorios
 
-- Ejercicios        Conjunto de todas las prácticas del curso
-- Resources         Ayudas para realizar las prácticas (no contiene ningún archivo enlazado)
+- Ejercicios > Conjunto de todas las prácticas del curso
+- Resources > Ayudas para realizar las prácticas (no contiene ningún archivo enlazado)
