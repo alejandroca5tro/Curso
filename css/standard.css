@@ -1,0 +1,6 @@
+* {box-sizing: border-box}
+body {
+    width: 80%;
+    margin: 1em auto; /*Con margin:auto conseguimos que el body quede centrado*/
+    background-color: palegoldenrod;
+}
