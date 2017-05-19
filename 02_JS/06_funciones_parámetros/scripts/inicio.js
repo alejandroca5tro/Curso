@@ -16,6 +16,12 @@ function sumaArg () { //Arg saca un "pseudoarray". Nos permite meter números si
     return nResult;
 }
 
+function sumaDobles (a=0, b=0) {
+    a *= 2; // a = 2*a
+    b *= 2;
+    return a+b;
+}
+
 function main () {
     let nNum1 = Number(prompt('Dime un número', 10)); 
     let nNum2 = Number(prompt('Dime otro', 20));
@@ -25,6 +31,7 @@ function main () {
     console.log(mediaArg (nNum1, nNum2));
     console.log(mediaArg (nNum1, nNum2, nNum3));
     console.log(mediaArg (nNum1, nNum2, nNum3, nNum4));
+    console.log(sumaDobles(nNum1, nNum2));
 
     //La diferencia entre dir y log es que uno saca los elementos completos y la otra incompletos.
 
@@ -32,6 +39,7 @@ function main () {
 
     //A esto se le llama encapsulación del código, las variables no están fuera de la función. Tiene la ventaja de poder guardar el contenido de una función en un fichero aparte. No hay que preocuparse de que no haya variables definidas globalmente, ya que están definidas dentro de cada función.
 }
+
 
 function mediaArg () {
     let nResult=0;
