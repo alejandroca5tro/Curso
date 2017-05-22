@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Definición de la función</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/standard.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+
+<body>
+    <script>
+        console.log(calculaPrecioTotal(23.34));
+
+        function calculaPrecioTotal(precio) {
+            var impuestos = 1.16;
+            var gastosEnvio = 10;
+            var precioTotal = (precio * impuestos) + gastosEnvio;
+            return precioTotal;
+        }
+    </script>
+</body>
+
+</html>

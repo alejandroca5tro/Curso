@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calcular el cuadrado</title>
+    <script>
+        function square() {
+            var result = document.squareData.side.value * document.squareData.side.value;
+            alert("El cuadrado de " + document.squareData.side.value + " es = " + result);
+        }
+    </script>
+</head>
+
+<body>
+    <form name="squareData" action="">
+        <input type="text" name="side">
+        <input type="button" value="Calcula el cuadrado" onclick="square()">
+    </form>
+</body>
+
+</html>
