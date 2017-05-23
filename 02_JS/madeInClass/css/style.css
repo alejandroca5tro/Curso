@@ -1,0 +1,24 @@
+* {box-sizing: border-box}
+
+body {
+	width: 80%;
+	margin: 1em auto;
+	background-color: palegoldenrod
+}
+
+ form {
+	 margin: 2rem 3rem;
+	 padding: 2rem;
+ }
+	/*Contenedores de cada uno de los controles del formulario*/
+	form div {
+		padding: 0.5rem;
+	}
+
+div.respuesta {
+	margin: 2rem;
+	border: 2px solid;
+	color: coral;
+	background-color: maroon;
+	padding: 2rem;
+}
