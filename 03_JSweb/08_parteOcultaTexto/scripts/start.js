@@ -1,0 +1,1 @@
+var parrafo = document.getElementById("p1");
