@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+}
+
+article {
+    overflow: hidden;
+}
+
+h1 {
+    padding: 0em 0em 0.5em 0em;
+    color: #000066;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+div.left {
+    width: 48%;
+    float: left;
+}
+
+div.right {
+    width: 48%;
+    float: right;
+}
+
+div.addi {
+    margin: 0em 1.25em 0.5em 0em;
+    padding: 0em 1em 1em 1em;
+    width: 66%;
+    float: left;
+    background-color: #e6e6ff;
+}
+
+footer {
+    margin-top: 2em;
+    clear: both;
+}
