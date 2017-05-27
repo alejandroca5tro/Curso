@@ -1,5 +1,8 @@
 # JS
-Unidad 2.1: javaScript
+Unidad 2
+
+Prácticas de javaScript
+En esta carpeta se colocan los archivos generados para las prácticas de clase.
 
 # Directorios
 

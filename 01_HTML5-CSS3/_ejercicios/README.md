@@ -1,9 +1,7 @@
 # Ejercicios
-Todas las prácticas
+Ejercicios de HTML5 y CSS3
 
 # Directorios
 
-Cada uno se corresponde con un ejercicio.
-Las siguientes carpetas son casos especiales:
-
-- Ejercicio Bloque 1 > Examen práctico del bloque 1
+- hechoPorCuentaPropia > Ejercicios que aparecen en el temario pero no se han visto en clase
+- vistoEnClase > Ejercicios vistos en clase

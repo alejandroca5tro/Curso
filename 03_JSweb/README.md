@@ -1,5 +1,8 @@
 # JSweb
-Unidad 2.2: javaScript aplicado a la web 
+Unidad 3
+
+Prácticas de javaScript aplicado a la web 
+En esta carpeta se colocan los archivos generados para las prácticas de clase.
 
 # Directorios
 
