@@ -10,19 +10,28 @@ body {
 }
 
 footer {
-    margin-top: 4rem;
     clear: both;
-    position: fixed;
-    bottom: 2%;
-    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
+footer>p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 div.links {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
-    width: 80%;
+    max-width: 50%;
     border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 0 1em;
 }
 
 a {
@@ -32,35 +41,36 @@ a {
 div.links div {
     width: 48px;
     height: 51.8px;
-    margin: 1em auto;
+    margin: 1em auto 0 auto;
+    background-image: url("../images/sprite.png");
 }
 
 div#l1 {
-    background-image: url("../images/sprite.png");
-    background-position: -288px -51.8px;
+    background-position: 192px 211px;
 }
 
 div#l2 {
-    background-image: url("../images/sprite.png");
-    background-position: -240px -207.2px;
+    background-position: 240px 52px;
 }
 
 div#l3 {
-    background-image: url("../images/sprite.png");
-    background-position: -192px -0px;
+    background-position: 288px 259px;
 }
 
 div#l4 {
-    background-image: url("../images/sprite.png");
-    background-position: -192px -51.8px;
+    background-position: 288px 209px;
 }
 
 div#l5 {
-    background-image: url("../images/sprite.png");
-    background-position: -432px -103.6px;
+    background-position: 48px 156px;
 }
 
 div#l6 {
-    background-image: url("../images/sprite.png");
-    background-position: -336px -207.2px;
+    background-position: 144px 52px;
+}
+
+div p {
+    clear: both;
+    text-align: center;
+    margin-top: 0;
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/standard.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+
+<body>
+    <section>
+        <form>
+            <fieldset>
+                <table>
+                    <tr>
+                        <th><label for="firstName">Nombre:</label></th>
+                        <td><input type="text" name="firstName" placeholder="Escribe tu nombre" required></td>
+                    </tr>
+                    <tr>
+                        <th> <label for="lastName">Apellido:</label></th>
+                        <td> <input type="text" name="lastName" placeholder="Escribe tu apellido" required></td>
+                    </tr>
+                    <tr>
+                        <th> <label for="birthDate">Fecha de nacimiento:</label></th>
+                        <td> <input type="date" name="birthDate" required></td>
+                    </tr>
+                    <tr>
+                        <th> <label for="city">Ciudad:</label></th>
+                        <td><input type="text" name="city" list="cities" placeholder="Escribe el nombre de tu ciudad" required>
+                            <datalist id="cities">                        
+                            <option>Madrid</option>
+                            <option>Barcelona</option>
+                            <option>Valencia</option>
+                            <option>Sevilla</option>
+                            <option>Alicante</option>
+                            <option>Málaga</option>
+                            <option>Murcia</option>
+                            <option>Cádiz</option>
+                            <option>Vizcaya</option>
+                            <option>La Coruña</option>
+                            <option>Islas Baleares</option>
+                            <option>Las Palmas</option>
+                            <option>Asturias</option>
+                            <option>Santa Cruz de Tenerife</option>
+                            <option>Zaragoza</option>
+                            <option>Pontevedra</option>
+                            <option>Granada</option>
+                            <option>Tarragona</option>
+                            <option>Córdoba</option>
+                            <option>Gerona</option>
+                            <option>Guipúzcoa</option>
+                            <option>Almería</option>
+                            <option>Toledo</option>
+                            <option>Badajoz</option>
+                            <option>Jaén</option>
+                            <option>Navarra</option>
+                            <option>Cantabria</option>
+                            <option>Castellón</option>
+                            <option>Valladolid</option>
+                            <option>Huelva</option>
+                            <option>Ciudad Real</option>
+                            <option>León</option>
+                            <option>Lérida</option>
+                            <option>Cáceres</option>
+                            <option>Albacete</option>
+                            <option>Burgos</option>
+                            <option>Lugo</option>
+                            <option>Salamanca</option>
+                            <option>Álava</option>
+                            <option>La Rioja</option>
+                            <option>Orense</option>
+                            <option>Guadalajara</option>
+                            <option>Huesca</option>
+                            <option>Cuenca</option>
+                            <option>Zamora</option>
+                            <option>Palencia</option>
+                            <option>Ávila</option>
+                            <option>Segovia</option>
+                            <option>Teruel</option>
+                            <option>Soria</option>
+                            <option>Ceuta</option>
+                            <option>Melilla</option>
+                        </datalist></td>
+                    </tr>
+                    <tr>
+                        <th><label for="state">Nivel de inglés:</label></th>
+                        <td><span><input type="radio" name="englishLevel" value="Nativo" required>Nativo</span><br>
+                            <span><input type="radio" name="englishLevel" value="Alto" required>Alto</span><br>
+                            <span><input type="radio" name="englishLevel" value="Medio" required>Medio</span><br>
+                            <span><input type="radio" name="englishLevel" value="Bajo" required>Bajo</span></td>
+                    </tr>
+                    <tr>
+                        <th><label for="state">Mayor área de interés:</label></th>
+                        <td><select required>
+                            <option value=""></option>
+                            <option value="engineering">Ingeniería</option>
+                            <option value="leadership">Liderazgo</option>
+                            <option value="operations">Operaciones</option>
+                            <option value="quality">Calidad</option>
+                            <option value="trade">Comercio</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <th><label for="comments">Comentarios:</label></th>
+                        <td><textarea name="comments" placeholder="¿Algún comentario?" rows="4" cols="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span><input type="checkbox" name="accept" value="accept" required>Confirmo que todos los datos son correctos</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="submit" value="Enviar"><input type="reset" name="reset" value="Borrar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

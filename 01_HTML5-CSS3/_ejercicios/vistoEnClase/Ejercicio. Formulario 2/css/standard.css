@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+}
+
+fieldset {
+    border-style: none;
+    margin: 2rem;
+}
+
+th {
+    text-align: right;
+}
+
+label {
+    margin-right: 0.25em;
+}
+
+input,
+select,
+textarea {
+    width: 300px;
+    margin: 0.5em 0.5em;
+    font-family: Montserrat;
+}
+
+input,
+select {
+    height: 2em;
+}
+
+span {
+    font-size: 1em;
+}
+
+tr:nth-of-type(5) input,
+tr:nth-of-type(8) input,
+tr:nth-of-type(9) input {
+    width: auto;
+}
+
+tr:nth-of-type(7) option:nth-child(1) {
+    display: none;
+}
+
+input:nth-child(1) {
+    margin-right: 1em;
+}
