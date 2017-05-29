@@ -1,0 +1,26 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "jSjQueryWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejandroca5tro/Curso.git"
+  },
+  "keywords": [
+    "JS",
+    "jQuery"
+  ],
+  "author": "Alejandro Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroca5tro/Curso/issues"
+  },
+  "homepage": "https://github.com/alejandroca5tro/Curso",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
