@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra la creación de un módulo y dentro de él de un controlador
+	empleando la inyección de dependencias para definir el scope
+	y almacenados en un fichero js aparte.
+	Nuevamente incorpora un array en el modelo 
+	y se hace uso de la directiva ngRepeat en la vista -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Lista de Autores</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" ng-controller= "AppController">
+	<header>
+		<h1>Lista de Autores</h1>
+	</header>
+
+	<form>
+		<label>Elije el orden que deseas</label>
+		<select ng-model="orden">
+			<option value="nombre">Nombre</option>
+			<option value="apellido">Apellido</option>
+			<option value="pais">Pais</option>
+			<option value="fechaNacim">Fecha de Nacimiento</option>
+		</select>
+		<label>Elije el genero literario que deseas</label>
+		<select ng-model="genero">
+			<option value="">todos</option>
+			<option value="policiaco">Policiaco</option>
+			<option value="ciencia ficción">Ciencia Ficción</option>
+			<option value="fantástico">Fantástico</option>
+		</select>		
+		<p><label>Campos a mostrar</label></p>
+		<p>	<label>Pais</label><input type="checkbox" ng-model="verPais"></p>
+		<p>	<label>Fecha de nacimiento</label><input type="checkbox" ng-model="verFecha"></p>
+
+	</form>
+	
+	<article>
+		<ul>	
+			<li ng-repeat="oAutor in aAutores | filter: genero | orderBy: orden">
+				<b>{{oAutor.nombre}} {{oAutor.apellido}}</b>				 
+				{{verPais ? ' - ' + oAutor.pais : ''}} 
+				{{verFecha ? '- Nacido en ' + (oAutor.fechaNacim | date:'yyyy') : ''}}
+				- Genero: <span ng-repeat="genero in oAutor.generos">
+				{{ genero }}{{ !$last ? ", " : "."}} <span>
+			</li>
+		</ul>	
+	</article>
+	<footer ng-include=" '../common/_footer.html' "></footer>
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/appModule.js"></script>
+</body>
+</html>

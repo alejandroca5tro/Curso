@@ -1,0 +1,17 @@
+    <app-cabeza></app-cabeza>
+       
+    <div class="row">	
+        <article class="col-xs-6 col-xs-offset-3">
+
+        <add-texto></add-texto>
+
+        <dos-botones btn1="$ctrl.btn1" btn1-clic="$ctrl.botonEnviar()"
+                    btn2="$ctrl.btn2" btn2-clic="$ctrl.botonBorrar()">                 
+        </dos-botones>
+
+        <p class="panel"> Variable en el scope padre: <i>{{$ctrl.texto}}</i></p>
+
+        </article>
+    </div>
+
+    <app-pie></app-pie>

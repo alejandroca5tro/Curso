@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra la creación de un módulo y dentro de él de un controlador
+	empleando la inyección de dependencias para definir el scope-->
+
+<html lang="es">
+
+<head>
+    <meta name="keywords" content="web, learning, html5, css3, angularJS">
+    <meta name="author" content="Alejandro">
+    <meta name="description" content="Ejercicios de angularJS">
+    <meta name="generator" content="Visual Studio Code">
+    <meta charset="UTF-8">
+    <title>Acumulador</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app="acumulador" ng-controller="AcumuladorCtrl">
+    <header>
+        <h1>Acumulador</h1>
+    </header>
+    <article>
+        <h2>Control de operación:</h2>
+        <form name="formulario">
+            <label for="fNombre" id="lblNombre">Incremento</label>
+            <input type="text" id="fvalor" name="fvalor" size="4" ng-model="incremento">
+
+            <label></label>
+            <input type="button" id="btnMas" value="+" ng-click="sumar()">
+            <label></label>
+            <input type="button" id="btnMenos" value="-" ng-click="restar()">
+
+        </form>
+
+        <h2>Totales:</h2>
+        <p>En el acumulador llevamos <b>{{ total }}</b></p>
+
+    </article>
+    <footer>
+        <p>Alejandro L. Cerezo - Madrid 2015</p>
+    </footer>
+    <script type="text/javascript" src="../../../node_modules/angular/angular.js"></script>
+    <script type="text/javascript">
+        // código de AngularJS
+        var oModulo = angular.module("acumulador", []);
+        oModulo.controller('AcumuladorCtrl', ['$scope', function($scope) {
+            //código del controlador
+            $scope.incremento = 10;
+            $scope.total = $scope.incremento;
+
+            $scope.sumar = function() {;
+                $scope.total += parseInt($scope.incremento);
+            }
+            $scope.restar = function() {
+                $scope.total -= parseInt($scope.incremento);
+            }
+        }])
+    </script>
+</body>
+
+</html>

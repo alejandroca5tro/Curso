@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Como opción al presentar angularJS, 
+	introducimos el concepto de controller de forma muy simple,
+	sin incluirlo en un módulo como sería adecuado como buena práctica -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Datos del alumno</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" href="fav_icon.png">
+</head>
+
+<body ng-app ng-controller = "AppController">
+	<header>
+		<h1>Datos del alumno</h1>
+	</header>
+	<article>
+		<p>El alumno {{alumno.nombre}} {{alumno.apellido}} <br>
+			se ha matriculado en el curso {{alumno.curso}}</p>
+	</article>
+	<footer>
+		<p>Alejandro L. Cerezo - Madrid 2017</p>
+	</footer>
+	<!--
+	<script type="text/javascript" src="../angular.min.js"></script>
+	con esta versión de angular no funciona el controller definido de esta manera
+	-->
+	<script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script type="text/javascript">
+
+		function AppController ($scope) {
+		 	// Definición del modelo
+		 	$scope.alumno = {
+		 		nombre : "Pepe",
+		 		apellido : "Perez",
+		 		curso : "Desarrollo Web"
+		 	};
+
+		}; // Fin del controller
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra la creación de un módulo y dentro de él de un controlador
+	empleando la inyección de dependencias para definir el scope
+	y almacenados en un fichero js aparte.
+	Nuevamente incorpora un array en el modelo 
+	y se hace uso de la directiva ngRepeat en la vista -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Lista de Socios</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../lib/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" ng-controller= "AppController as $ctrl">
+	<header>
+		<h1>Lista de Socios</h1>
+	</header>
+	<article>
+		<p>El número total de socios es de {{$ctrl.aSocios.length}}</p>
+
+		<div class="row">
+			<form class = "form-horizontal" role="form" action="">
+				<div class="form-group">
+					<p class="form-control-static">Añadir socio</p>
+				</div>
+				
+				<div class="form-group">
+					<label for="username">Nombre</label>
+					<input id="username" type="text" class="form-control" ng-model="$ctrl.nuevoSocio">
+				</div>
+
+				<span class="clearfix"></span>
+				<div class="form-group">
+					<label for=""></label>
+					<button type="button" class="btn btn-primary" 
+						ng-click="$ctrl.AddSocio()">Añadir</button>
+				</div>
+			</form>
+		</div>
+		<ul>	
+			<li ng-repeat="socio in $ctrl.aSocios track by $index">
+				Socio número {{$index + 1}}: <b ng-bind="socio"></b> 			
+				<!-- sería lo mismo 
+				Socio número {{$index + 1}}: <b>{{socio}}</b> 
+				-->
+			</li>
+		</ul>	
+	</article>
+		<footer>
+		<p>Alejandro L. Cerezo - Madrid 2015</p>
+	</footer>
+	<script type="text/javascript" src="../../lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/appModule.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	 Se utiliza la directiva ngInclude para almacenar parte del UI en otros ficheros,
+	 que luego son invocados desde el index
+	 El conjunto se formatea utilizando Bootstrap 
+	 -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Estructuras</title>
+  	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">		
+  	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" href="fav_icon.png">
+	<script type="text/javascript" src="../node_modules/angular/angular.js"></script>	
+</head>
+
+<body ng-app  ng-init ="sTitulo = 'Desarrollo Web con AngularJS'; sAutor = 'Alejandro Cerezo'"> 
+	<div class="container">
+		<ng-include src="'partials/cabecera.html'"></ng-include>
+		<article class="col-xs-6 col-xs-offset-3">
+			<p>Ejemplo de html parciales incluidos en index.html</p>
+		</article>
+		<div ng-include="'partials/pie.html'"></div>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra la creación de un módulo y dentro de él de un controlador
+	empleando la inyección de dependencias para definir el scope
+	y almacenados en un fichero js aparte.
+	Nuevamente incorpora un array en el modelo 
+	y se hace uso de la directiva ngRepeat en la vista -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Lista de Socios</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="shortcut icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" >
+	<header>
+		<h1>Lista de Socios</h1>
+	</header>
+	<article ng-controller="ArticleController">
+		<p>El número total de socios es de {{aSocios.length}}</p>
+		<ul>	
+			<li ng-repeat="socio in aSocios">
+				Socio número {{$index + 1}}: <b>{{socio}}</b>  			
+				<!-- sería lo mismo 
+				Socio número {{$index + 1}}: <b ng-bind="socio"></b>
+				-->
+			</li>
+		</ul>	
+	</article>
+	<div ng-include="'partials/pie.html'"></div>
+	<script type="text/javascript" src="../../lib/angular/angular.min.js"></script>	
+	<script type="text/javascript" src="js/appModule.js"></script>	
+	<script type="text/javascript" src="js/pie.js"></script>		
+</body>
+</html>

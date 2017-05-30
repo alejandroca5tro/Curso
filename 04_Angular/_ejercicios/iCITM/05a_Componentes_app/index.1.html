@@ -1,0 +1,41 @@
+<!-- Ejemplo de AngularJS;
+	Componentes en Angular 1.5/1.6
+    Se refactorizan las directivas cabecera y pie como componentes
+
+    Se crean dos componentes :
+        - con estado: add-Texto. Tiene su propio scope totalmemte aislado, 
+          en el que se almacenan los resultados de la interacción con el usuario (el estado)
+        - sin estado : dos-botones. Para que este totalmente desacoplado hay que
+         pasarle tanto los strings como las funciones que necesita utilizar
+    ... -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Componentes</title>	
+	<meta charset="UTF-8">
+	<meta name="description" content="Ejercicios de AngularJS">
+	<meta name="author" content="Alejandro Cerezo">  	
+	<meta name="generator" content="Visual Studio Code">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">		
+  	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="../node_modules/angular-i18n/angular-locale_es-es.js"></script>
+</head>
+
+<body ng-app="appPrueba">
+
+    <app-main></app-main>
+
+    <script src="js/app.module.js"></script>
+    <script src="appMain/appMain.component.js"></script>    
+    <script src="componentes/app-cabeza.component.js"></script>
+    <script src="componentes/app-pie.component.js"></script>
+    <script src="componentes/addTexto.component.js"></script>
+    <script src="componentes/dosBotones.component.js"></script>
+</body>
+</html>
+
+

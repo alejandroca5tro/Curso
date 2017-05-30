@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	... -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Slider - Imágenes</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" ng-controller= "AppController">
+	<header>
+		<h1>Slider - Imágenes</h1>
+	</header>
+	<article>
+		<h2>Imágenes de Luis Royo</h2>
+		<figure><img src="{{ aFotos[iFoto].src}}" alt="{{ aFotos[iFoto].alt}}"
+			title="{{aFotos[iFoto].title}}"></figure>
+        <button id="back" ng-click="cambiarFoto('back')" ng-hide = "isInicio">Retroceder</button>
+        <button id="next" ng-click="cambiarFoto('next')" ng-hide = "isFinal">Avanzar</button>
+	</article>
+	<footer ng-include=" '../common/_footer.html' "></footer>
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/appModule.js"></script>
+</body>
+</html>

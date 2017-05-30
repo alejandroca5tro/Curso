@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra de nuevo el uso de la directiva ngHide y del operador ternario.
+	Se utilizan eventos del movimiento del ratón, 
+	asociando a varios de ellos un mismo manejador, al que se le pasa un parámetro-->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code">
+	<meta charset="UTF-8">
+	<title>Muestrario</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/colores.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" ng-controller= "AppController">
+	<header>
+		<h1>Muestrario</h1>
+	</header>
+	<article>
+		<p class="big">Ratones inalambricos disponibles en varios colores</p>
+		<p>Para verlos, coloca el cursor sobre la imagen</p>
+
+		<div ng-mouseenter="verColores(true)" ng-mouseleave="verColores(false)">
+			<img src="images/mouse.jpg" >
+			
+			<!-- Se eleimina el botón que existía anteriormente
+			<input type="button"  id="btnColores" value=
+			 	"{{isHidden ? 'Mostrar Colores Disponibles' : 'Ocultar Colores Disponibles'}}"
+				ng-cloak ng-click="btnColores()">
+
+			Alternativa usando button en lugar de input
+			<button type="button" id="btnColores" ng-click="btnColores()" >
+				{{isHidden ? 'Mostrar Colores Disponibles' : 'Ocultar Colores Disponibles'}}
+			</button>
+			-->
+
+			<div class="colores" id="red" ng-hide="isHidden">Rojo</div>
+			<div class="colores" id="green" ng-hide="isHidden">Verde</div>
+			<div class="colores" id="blue" ng-hide="isHidden">Azul</div>
+			<div class="colores" id="purple"ng-hide="isHidden">Morado</div>
+			<div class="colores" id="gray" ng-hide="isHidden">Gris oscuro</div>
+			<div class="colores" id="olive" ng-hide="isHidden">Verde oliva</div>
+		</div>
+	</article>
+	<footer ng-include="'../common/_footer.html'"></footer>
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/appModule.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se continua usando el ejemplo de la directiva ngRepeat 
+	incorporando un tercer formato para el controller del fichero JS adjunto-->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code" >
+	<meta charset="UTF-8">
+	<title>Pensamientos</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app="miApp" ng-controller="MainController as $ctrl">
+	
+	<header>
+		<h1>Pensamientos</h1>
+	</header>
+	<article>
+		<form name="formulario">
+			<label for="fNombre" id="lblNombre">Indica tu nombre</label>
+			<input type="text" id="fNombre" name="fNombre" ng-model="$ctrl.nombre">
+			<label for="fIdea" id="lblIdea">Comparte una idea</label>
+			<input type="text" id="fIdea" name="fIdea" ng-model="$ctrl.nuevoPensamiento">
+			<label></label>
+			<input type="button"  id="boton" value="Añadir" 
+			ng-click="$ctrl.botonAdd()">	
+		</form>
+
+		<p>Hola {{$ctrl.nombre}}</p>
+		<h2>Pensamientos que has tenido</h2>
+		<ul>	
+			<li ng-repeat="pensamiento in $ctrl.aPensamientos track by $index">
+				El pensamiento número {{$index + 1}} de {{$ctrl.nombre}} fue: <q>{{pensamiento}}</q></li>
+		</ul>			
+	</article>
+	<footer>
+		<p>Alejandro L. Cerezo - Madrid 2017</p>
+	</footer>
+	<script type="text/javascript" src="../../lib/angular/angular.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

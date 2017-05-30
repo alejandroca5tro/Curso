@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	Se muestra el uso de diversos filtros para mostrar en la vista
+	una serie de datos almacenadoes en el modelo -->
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de angularJS">
+	<meta name="generator" content="Visual Studio Code">
+	<meta charset="UTF-8">
+	<title>Datos de un Usuario</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+<body ng-app = "appModule" ng-controller= "AppController">
+	<header>
+		<h1>Datos de un Usuario</h1>
+	</header>
+	<article>
+		<p>Se utiliza el siguiente modelo de datos</p>
+		<pre>
+			nombre: 'PEPE',
+			apellido: 'PEREZ',
+			fechaAlta: new Date(2010, 2, 23),
+			consumoDatos: 123.659855,
+			plan: 'plan-super-basico'
+		</pre>
+		<p>Y los datos se muestran a continuación con diversos filtros</p>
+		<dl>
+			<dt>Nombre</dt><dd>{{oUsuario.nombre | lowercase}}</dd>
+			<dt>Apellido</dt><dd>{{oUsuario.apellido | lowercase}}</dd>
+			<dt>Fecha de alta (sin filtrar)</dt><dd>{{oUsuario.fechaAlta}}</dd>
+			<dt>Fecha de alta</dt><dd>{{oUsuario.fechaAlta |date:shortdate}}</dd>
+			<dt>Consumo de datos</dt><dd>{{oUsuario.consumoDatos | number:3}}</dd>
+			<dt>Precio</dt><dd>{{oUsuario.consumoDatos | currency:'€' }}</dd>
+			{{oUsuario.consumoDatos}}
+			<dt></dt><dd></dd>
+		</dl>
+
+	</article>
+	<footer ng-include=" '../common/_footer.html' "></footer>
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/appModule.js"></script>
+</body>
+</html>

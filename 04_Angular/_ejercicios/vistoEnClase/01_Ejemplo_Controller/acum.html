@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Acumulador</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/standard.css">
+    <script type="text/javascript" src="../../../node_modules/angular/angular.js"></script>
+</head>
+
+<body ng-app="accumulator" ng-controller="AccumulatorController as acont">
+    <!--lo más moderno sería poner un $delante, de hecho $ctrl es lo que usan los más modernos-->
+    <header>
+        <h1>Acumulador</h1>
+    </header>
+    <article>
+        <h2>Control de operación:</h2>
+        <form>
+            <label>Incremento</label>
+            <input type="text" ng-model="acont.increase">
+            <input type="button" value="añadir" ng-click="acont.add()">
+            <input type="button" value="quitar" ng-click="acont.subs()">
+        </form>
+
+        <h2>Total:</h2>
+        <p>En el accumulator hay: <b>{{ acont.total }}</b></p>
+
+    </article>
+
+    <script type="text/javascript" src="scripts/ctrl.js">
+    </script>
+</body>
+
+</html>
