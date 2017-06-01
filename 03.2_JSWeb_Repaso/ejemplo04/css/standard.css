@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #33adff;
+    text-shadow: black;
+}
+
+div#animated {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+
+/*p {
+}*/
+
+
+/*div {
+    padding: 0.8em;
+    font-family: Montserrat;
+    width: 65%;
+    float: left;
+    background-color: #003d66;
+    color: white;
+}*/
+
+span.citaLoc {
+    float: right;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #cca300;
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    clear: right;
+}
+
+footer {
+    margin-top: 4em;
+    float: left;
+    clear: both;
+}
