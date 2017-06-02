@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    width: 40%;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    /*margin: 0.5em;*/
+    border-radius: 0.5em 0.5em 0 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: white;
+    border-bottom: none;
+    font-weight: bold;
+    /*border-bottom: 1px solid black;*/
+}

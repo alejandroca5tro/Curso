@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat;
+}
+
+div {
+    width: 70%;
+    padding: 2em;
+    border: 1px solid black;
+    text-align: center;
+    /*-webkit-transition: background-color 0.3s ease-in-out 0.2s;
+    -moz-transition: background-color 0.3s ease-in-out 0.2s;
+    -o-transition: background-color 0.3s ease-in-out 0.2s;
+    -ms-transition: background-color 0.3s ease-in-out 0.2s;*/
+    transition: background-color 0.3s ease-in-out 0.2s;
+}
+
+div:hover {
+    background-color: red;
+}

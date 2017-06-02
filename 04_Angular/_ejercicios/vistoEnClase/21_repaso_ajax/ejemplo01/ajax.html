@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ajax</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/standard.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script type="text/javascript" src="scripts/start.js"></script>
+    <script type="text/javascript" src="../../node_modules/angular/angular.js"></script>
+
+</head>
+
+<body>
+    <p>
+
+    </p>
+    <form>
+        <datalist id="ficheros">
+			<!--<option value="file01.txt">
+			<option value="file02.txt">
+			<option value="file03.txt">
+			<option value="historia.txt">
+			<option value="holamundo.txt">
+			<option value="Libro.1.json">-->
+		</datalist>
+        <label>Nombre del fichero
+		<input type="text" id="Nombre" name="Nombre" list="ficheros">
+		</label>
+        <input type="button" id="boton" name="boton" value="Leer Fichero">
+    </form>
+    <article id="principal">
+        <h2>Contenidos del archivo:</h2>
+        <div id="contenidos"></div>
+    </article>
+
+</body>
+
+</html>

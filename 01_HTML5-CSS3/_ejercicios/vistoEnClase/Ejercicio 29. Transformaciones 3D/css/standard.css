@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat;
+}
+
+div {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    perspective: 500px;
+}
+
+img {
+    width: 250px;
+    transform: rotateX(15deg);
+    /*transition: transform 1s ease-in-out;*/
+}
+
+
+/*img:hover {
+    transform: rotate(85deg);
+}*/

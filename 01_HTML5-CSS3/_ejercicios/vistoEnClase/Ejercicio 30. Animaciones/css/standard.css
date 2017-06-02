@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+}
+
+div#d1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: div1;
+    animation-duration: 2s;
+}
+
+div#d2 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    animation-name: div2;
+    animation-duration: 4s;
+}
+
+div#d3 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    animation-name: div3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes div1 {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(50deg)
+    }
+}
+
+@keyframes div2 {
+    from {
+        background-color: grey;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+@keyframes div3 {
+    0% {
+        position: absolute;
+        top: 100px;
+        left: 700px;
+    }
+    50% {
+        position: absolute;
+        top: 150px;
+        left: 700px;
+    }
+    100% {
+        position: absolute;
+        top: 100px;
+        left: 700px;
+    }
+}
