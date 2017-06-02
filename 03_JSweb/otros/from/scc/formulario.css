@@ -1,0 +1,67 @@
+* {box-sizing: border-box;}
+ body{width: 80%; 
+     margin: 2em auto;
+     background-color: silver;
+     color: brown
+     }
+ .oculto {display: none;}
+ .bloque {display: block;}
+ .goodcolor{
+       color: red;
+      
+ } 
+ .badcolor{
+    
+     background-color: red;
+ }
+ .goodcolor2{
+      background-color: white;
+ }
+ form{
+     background-color: steelblue;
+ }  
+ legend{
+     background-color: navy;
+     color: white;
+ } 
+ fieldset{
+     margin: 1em;
+     padding: 1em;
+ }
+ div#izq{
+     width: 50%;
+     float: left;
+     color: white;
+     
+ } 
+ div#dcha{
+     width: 50%;
+     float: left;
+     color: white;
+ }
+ div.label{
+     width: 50%;
+     float: left;
+     color: white;
+     line-height: 130%
+ }
+ div#ci{
+     width: 70%;
+     float: left
+ }
+  div#cd{
+     width: 30%;
+     float: left;
+      margin: 1em auto;
+ }
+ #sCurso{
+    width: 80px
+ }
+ div.aficiones{
+     width: 25%;
+     float: left;
+     
+ }
+ div.aficiones>input{
+     margin-bottom: 1em;
+ }

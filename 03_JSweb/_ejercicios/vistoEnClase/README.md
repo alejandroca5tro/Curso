@@ -1,5 +1,5 @@
-# JS
-Unidad 2: JavaScript
+# JSWeb
+Unidad 3: JavaScript aplicado a la Web
 
 Prácticas de Javascript y JQuery
 En esta carpeta se colocan los archivos generados para las prácticas de clase realizadas durante el aprendizaje de JS.
