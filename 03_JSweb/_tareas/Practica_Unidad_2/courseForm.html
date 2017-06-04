@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Formulario</title>
+    <title>Inscripción</title>
     <meta name="author" content="Alejandro Castro">
     <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
     <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
@@ -15,8 +15,11 @@
 </head>
 
 <body>
-    <section>
-        <form id="courseForm">
+    <header>
+        <h1>Inscripción</h1>
+    </header>
+    <section class="form">
+        <form id="courseForm" method="post" enctype="text/plain">
             <fieldset>
                 <legend>Datos del alumno</legend>
                 <div id="leftCont">
@@ -28,33 +31,28 @@
                                 <td><input type="email" name="email" placeholder="cuenta@dominio.com" required></td>
                             </tr>
                             <tr>
-                                <td><label for="password">Introduzca su clave de acceso</label></td>
-                                <td><input type="password" name="password" required></td>
+                                <td><label for="password1">Introduzca su clave de acceso</label></td>
+                                <td><input type="password" id="password1" name="password1" required></td>
                             </tr>
                             <tr>
                                 <td><label for="password2">Repita su clave de acceso</label></td>
-                                <td><input type="password2" name="password2" required></td>
+                                <td><input type="password" id="password2" name="password2" required></td>
                             </tr>
                         </table>
                     </fieldset>
                     <fieldset id="course">
                         <legend>Curso</legend>
-                        <div id="courseSelection">
-                        </div>
+                        <div id="courseSelection"></div>
                         <div>
-                            <select id="subjectSelection" size="4">
-                        <!--<option value="html">Html</option>
-                        <option value="css">CSS</option>
-                        <option value="js">JavaScript</option>
-                        <option value="php">PHP</option>-->
-                    </select>
+                            <select id="subjectSelection" required size="4"></select>
                         </div>
                     </fieldset>
-                    <fieldset id="buttons">
-                        <input type="submit" name="submit" value="Enviar datos">
+                    <fieldset id="mainButtons">
+                        <input type="submit" id="submitButton" name="submit" value="Enviar datos">
                         <input type="reset" name="reset" value="Restablecer valores">
                     </fieldset>
-                    <fieldset id="empty">
+                    <fieldset id="date">
+                        <p id="nowis"></p>
                     </fieldset>
                 </div>
                 <div id="rightCont">
@@ -71,37 +69,36 @@
                             </tr>
                             <tr>
                                 <td><label for="secondFamilyName">Segundo apellido</label></td>
-                                <td><input type="text" name="secondFamilyName" required></td>
+                                <td><input type="text" name="secondFamilyName"></td>
                             </tr>
                         </table>
                         <fieldset>
                             <legend>Fecha de nacimiento</legend>
-                            <label for="day">Día</label>
-                            <input type="number" name="day" min="1" max="31" value="0" required>
-                            <label for="month">Mes</label>
-                            <input type="number" name="month" min="1" max="12" value="0" required>
-                            <label for="year">Año</label>
-                            <input type="number" name="year" min="1900" max="2017" value="2000" required>
+                            <label for="birthDate">Fecha de nacimiento:</label>
+                            <input type="date" name="birthDate" required>
                         </fieldset>
                     </fieldset>
                     <fieldset id="hobbies">
                         <legend>Aficiones</legend>
                         <div>
-                            <input type="checkbox" name="music" value="music">Música<br>
-                            <input type="checkbox" name="toTravel" value="toTravel">Viajar<br>
-                            <input type="checkbox" name="paint" value="paint">Pintura<br>
-                            <input type="checkbox" name="photography" value="photography">Fotografía<br>
+                            <input type="checkbox" id="music" value="Música"><label for="music">Música</label><br>
+                            <input type="checkbox" id="toTravel" value="Viajar"><label for="toTravel">Viajar</label><br>
+                            <input type="checkbox" id="paint" value="Pintura"><label for="paint">Pintura</label><br>
+                            <input type="checkbox" id="photography" value="Fotografía"><label for="photography">Fotografía</label><br>
                         </div>
                         <div>
-                            <input type="checkbox" name="cinema" value="cinema">Cine<br>
-                            <input type="checkbox" name="read" value="read">Lectura<br>
-                            <input type="checkbox" name="sport" value="sport">Deporte<br>
-                            <input type="checkbox" name="dance" value="dance">Baile<br>
+                            <input type="checkbox" id="cinema" value="Cine"><label for="cinema">Cine</label><br>
+                            <input type="checkbox" id="read" value="Lectura"><label for="read">Lectura</label><br>
+                            <input type="checkbox" id="sport" value="Deporte"><label for="sport">Deporte</label><br>
+                            <input type="checkbox" id="dance" value="Baile"><label for="dance">Baile</label><br>
                         </div>
                     </fieldset>
                 </div>
             </fieldset>
         </form>
+    </section>
+    <section class="outputDataPresentation">
+        <div id="dataSent"></div>
     </section>
     <footer>
         <hr>

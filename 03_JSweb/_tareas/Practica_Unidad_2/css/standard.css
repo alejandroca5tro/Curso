@@ -1,3 +1,5 @@
+/*General*/
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +12,33 @@ body {
     color: white;
     background-color: #cccccc;
 }
+
+.onscreen {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*Encabezado*/
+
+h1 {
+    font-size: 2em;
+    color: #002b80;
+    margin-bottom: 1.5em;
+}
+
+
+/*Presentación del formulario*/
+
+section.form {
+    display: block;
+}
+
+
+/*Disposición en dos columnas*/
 
 div#leftCont,
 div#rightCont {
@@ -24,6 +53,9 @@ div#rightCont {
     float: right;
 }
 
+
+/*Recuadros y títulos en general*/
+
 div fieldset legend {
     margin-bottom: 1em;
 }
@@ -34,10 +66,29 @@ fieldset {
     padding-bottom: 1em;
 }
 
+legend {
+    border: 1px solid white;
+    background-color: #002b80;
+    font-weight: bold;
+}
+
+
+/*Tablas en general*/
+
+table {
+    width: 100%;
+}
+
+
+/*Nombres de campo*/
+
 fieldset td label,
 fieldset label {
     margin-left: 0.8em;
 }
+
+
+/*Identificación*/
 
 fieldset#identification td {
     width: 40%;
@@ -51,28 +102,49 @@ fieldset#identification tr:nth-of-type(1) input {
     width: 95%;
 }
 
+
+/*Curso*/
+
 fieldset#course div:nth-of-type(1) {
     width: 45%;
     float: left;
-}
-
-fieldset#course div:nth-of-type(2) {
-    width: 30%;
-    float: right;
 }
 
 fieldset#course div:nth-of-type(1) input {
     margin: 0.8em 0.2em 0.8em 1em;
 }
 
-fieldset#buttons input {
+fieldset#mainButtons input {
     margin: 0.5em auto auto 0.5em;
     font-size: inherit;
 }
 
-fieldset#empty {
+fieldset#course div:nth-of-type(2) {
+    width: 100px;
+    float: left;
+    margin-left: 25%;
+}
+
+select#subjectSelection {
+    width: 100%;
+    /*display: none;*/
+}
+
+
+/*Recuadro fecha*/
+
+fieldset#date {
     height: 3em;
 }
+
+fieldset#date p {
+    position: relative;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+
+
+/*Datos personales*/
 
 fieldset#personalData td {
     width: 40%;
@@ -81,6 +153,13 @@ fieldset#personalData td {
 fieldset#personalData tr input {
     width: 95%;
 }
+
+fieldset#personalData>fieldset>input {
+    margin-left: 15%;
+}
+
+
+/*Aficiones*/
 
 fieldset#hobbies div input {
     margin: 0.8em 0.2em 0.8em 1em;
@@ -100,16 +179,35 @@ fieldset#hobbies div input {
     margin: 0.8em 0.2em 0.8em 1em;
 }
 
-table {
-    width: 100%;
+
+/*Presentación de los datos de salida*/
+
+section.outputDataPresentation {
+    display: none;
 }
 
-legend {
-    border: 1px solid white;
-    background-color: #002b80;
+div#dataSent {
+    color: #002b80;
+    padding: 1.7em 2em;
+    width: 40%;
+    min-width: 300px;
+    border-style: solid;
+    border-radius: 0.8em;
+    border-width: 5px;
+    background-color: white;
+    line-height: 2em;
+    margin-left: 1em;
+}
+
+.dataName {
     font-weight: bold;
 }
 
+
+/*Pié de página*/
+
 footer {
+    margin-top: 3.5em;
     color: #002b80;
+    font-size: 0.9em;
 }
