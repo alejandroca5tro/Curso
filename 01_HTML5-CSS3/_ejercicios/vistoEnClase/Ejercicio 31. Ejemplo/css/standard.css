@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 2em auto;
+    font-family: Open Sans;
+}
+
+
+/*Cabecera*/
+
+h1 {
+    background: linear-gradient(90deg, #333333, #ffffff);
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+nav {
+    width: 40%;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 20%;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    /*margin: 0.5em;*/
+    border-radius: 0.5em 0.5em 0 0;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+    transition: color 0.15s ease-in-out;
+    color: white;
+}
+
+li:hover {
+    background-color: white;
+    border-bottom-color: white;
+    font-weight: bold;
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+
+/*Sección principal*/
+
+section.main {
+    float: left;
+    width: 70%;
+}
+
+
+/*Zona lateral*/
+
+aside.rightAside {
+    float: right;
+    width: 30%;
+}
+
+
+/*Pié de página*/
+
+footer {
+    clear: both;
+    margin-top: 3em;
+}
