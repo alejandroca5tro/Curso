@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>UX normal con ayuda</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 90%;
+            margin-left: 5%;
+            font-family: Open Sans;
+            background-color: #f2f2f2;
+        }
+        
+        div.container {
+            margin: 10% 0% 10% 5%;
+        }
+        
+        div.radio {
+            height: 75px;
+            padding-left: 1.5em;
+            padding-top: 1.2em;
+            width: 30%;
+        }
+        
+        div>p.info {
+            font-weight: bold;
+        }
+        
+        .radio:hover {
+            background-color: white;
+            border-radius: 5px;
+            border: 3px solid blue;
+            font-weight: bold;
+        }
+        
+        footer {
+            font-size: 0.8em;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Simulación de experiencia de usuario</h1>
+    <h2>Sin diversidad funcional</h2>
+    <div class="container">
+
+        <p class="info">Selecciona alguna de las siguientes opciones</p>
+        <div id="radio1" class="radio">
+            <input id="prueba1" type="radio" name="prueba" value=""><label for="prueba1">Lorem ipsum dolor sit amet</label><br>
+        </div>
+        <div id="radio2" class="radio">
+            <input id="prueba2" type="radio" name="prueba" value=""><label for="prueba2">Consectetur adipisicing elit</label><br>
+        </div>
+        <div id="radio3" class="radio">
+            <input id="prueba3" type="radio" name="prueba" value=""><label for="prueba3">Cumque provident distinctio</label><br>
+        </div>
+    </div>
+    <div id="mousePointer"></div>
+
+    <script>
+        document.querySelector('#radio1').addEventListener('click', check1);
+        document.querySelector('#radio2').addEventListener('click', check2);
+        document.querySelector('#radio3').addEventListener('click', check3);
+
+        function check1() {
+            document.getElementById('prueba1').checked = true;
+        }
+
+        function check2() {
+            document.getElementById('prueba2').checked = true;
+        }
+
+        function check3() {
+            document.getElementById('prueba3').checked = true;
+        }
+    </script>
+
+</body>
+
+</html>
