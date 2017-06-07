@@ -7,7 +7,7 @@
 }
 
 body {
-    width: 960px;
+    width: 90%;
     margin: 2em auto;
     font-family: Open Sans;
 }
@@ -55,7 +55,6 @@ li:hover {
     font-weight: bold;
     color: black;
     /*border-bottom: 1px solid black;*/
-    cursor: pointer;
 }
 
 
@@ -63,8 +62,25 @@ li:hover {
 
 section.main {
     float: left;
-    width: 70%;
+    width: 69%;
     padding-right: 2em;
+    margin-right: 2%;
+}
+
+
+/*section.main h2 {
+
+}*/
+
+div.column1 {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+
+div.column2 {
+    width: 49%;
+    float: right;
 }
 
 
@@ -72,7 +88,7 @@ section.main {
 
 aside.rightAside {
     float: right;
-    width: 30%;
+    width: 29%;
 }
 
 

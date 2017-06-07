@@ -1,3 +1,5 @@
+/*position relative, ahí está el problema*/
+
 *,
 *::before,
 *::after,
@@ -7,13 +9,13 @@
 }
 
 body {
-    width: 960px;
+    width: 90%;
     margin: 2em auto;
     font-family: Open Sans;
 }
 
 
-/*Cabecera*/
+/*Cabecera - Título*/
 
 h1 {
     background: linear-gradient(90deg, #333333, #ffffff);
@@ -22,10 +24,8 @@ h1 {
     border-radius: 0.5em 0.5em 0 0;
 }
 
-nav {
-    width: 40%;
-    overflow: auto;
-}
+
+/*Cabecera - Menú*/
 
 ul {
     list-style-type: none;
@@ -39,7 +39,7 @@ li {
     width: 20%;
     background-color: grey;
     border: 1px solid black;
-    padding: 1em;
+    padding: 1em 0.5em 1em 0.5em;
     text-align: center;
     /*margin: 0.5em;*/
     border-radius: 0.5em 0.5em 0 0;
@@ -47,6 +47,7 @@ li {
     font-weight: bold;
     transition: color 0.15s ease-in-out;
     color: white;
+    position: relative;
 }
 
 li:hover {
@@ -54,9 +55,63 @@ li:hover {
     border-bottom-color: white;
     font-weight: bold;
     color: black;
-    /*border-bottom: 1px solid black;*/
     cursor: pointer;
+    position: absolute;
 }
+
+li.withSubItems:hover {
+    border: 1px solid black;
+    /*border-radius: 0.5em 0.5em 1em 1em;*/
+    border-radius: 1em;
+    padding-bottom: 1.8em;
+}
+
+ul ul {
+    display: none;
+}
+
+li:hover>ul {
+    display: block;
+}
+
+ul ul li {
+    /*position: relative;*/
+    top: 1.2em;
+    float: none;
+    width: 100%;
+    border-radius: 0;
+    padding: 0.7em;
+}
+
+ul ul li:hover {
+    border: 1px solid black;
+}
+
+ul ul li:nth-of-type(1) {
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+ul ul li:last-of-type {
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+div.separator {
+    /*position: relative;
+    top: 2em;
+    background: linear-gradient(90deg, #333333, #ffffff);
+    height: 10em;
+    width: 100%;*/
+    clear: both;
+}
+
+
+/*Cuerpo de la página*/
+
+
+/*div.mainContainer {
+    position: relative;
+    z-index: -1;
+}*/
 
 
 /*Sección principal*/

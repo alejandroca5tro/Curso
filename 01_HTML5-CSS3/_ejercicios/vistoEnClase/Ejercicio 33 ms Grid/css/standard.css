@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+section#ejemplo2>div {
+    display: -ms-grid;
+    -ms-grid-rows: 1fr 2fr 1fr;
+    -ms-grid-columns: 1fr 1fr1fr;
+}
+
+section#ejemplo2>div>div {
+    border: 1px solidgray;
+}
+
+section#ejemplo2>div>div:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+}
+
+section#ejemplo2>div>div:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+section#ejemplo2>div>div:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
+
+section#ejemplo2>div>div:nth-child(5) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+}
+
+section#ejemplo2>div>div:nth-child(6) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+}
