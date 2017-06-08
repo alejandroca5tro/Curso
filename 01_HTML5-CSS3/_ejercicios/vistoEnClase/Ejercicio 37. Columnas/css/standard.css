@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 2em auto;
+    font-family: Open Sans;
+}
+
+
+/*Cabecera*/
+
+h1 {
+    background: linear-gradient(90deg, #333333, #ffffff);
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+
+/*Cuerpo principal*/
+
+article p {
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: red;
+    column-rule-width: 1px;
+}
+
+
+/*Pié de página*/
+
+footer {
+    clear: both;
+    margin-top: 3em;
+}

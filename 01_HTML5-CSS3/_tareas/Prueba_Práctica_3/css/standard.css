@@ -1,3 +1,5 @@
+/*poner el menú abajo*/
+
 *,
 *::before,
 *::after,
@@ -10,10 +12,11 @@ body {
     width: 90%;
     margin: 2em auto;
     font-family: Open Sans;
+    max-width: 1200px;
 }
 
 
-/*Cabecera*/
+/*Cabecera - Título*/
 
 h1 {
     background: linear-gradient(90deg, #333333, #ffffff);
@@ -22,15 +25,19 @@ h1 {
     border-radius: 0.5em 0.5em 0 0;
 }
 
+
+/*Cabecera - Menú topNav*/
+
 nav {
-    width: 40%;
-    overflow: auto;
+    position: relative;
+    height: 8em;
 }
 
 ul {
     list-style-type: none;
     padding: 0px;
     width: 100%;
+    position: absolute;
 }
 
 li {
@@ -39,7 +46,7 @@ li {
     width: 20%;
     background-color: grey;
     border: 1px solid black;
-    padding: 1em;
+    padding: 1em 0.5em 1em 0.5em;
     text-align: center;
     /*margin: 0.5em;*/
     border-radius: 0.5em 0.5em 0 0;
@@ -47,6 +54,7 @@ li {
     font-weight: bold;
     transition: color 0.15s ease-in-out;
     color: white;
+    position: relative;
 }
 
 li:hover {
@@ -54,8 +62,49 @@ li:hover {
     border-bottom-color: white;
     font-weight: bold;
     color: black;
-    /*border-bottom: 1px solid black;*/
+    cursor: pointer;
+    /*position: absolute;*/
 }
+
+li.withSubItems:hover {
+    border: 1px solid black;
+    /*border-radius: 0.5em 0.5em 1em 1em;*/
+    border-radius: 1em;
+    padding-bottom: 1.8em;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+}
+
+li:hover>ul {
+    display: block;
+}
+
+ul ul li {
+    /*position: relative;*/
+    top: 1.2em;
+    float: none;
+    width: 100%;
+    border-radius: 0;
+    padding: 0.7em;
+}
+
+ul ul li:hover {
+    border: 1px solid black;
+}
+
+ul ul li:nth-of-type(1) {
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+ul ul li:last-of-type {
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+
+/*Cabecera - navButton*/
 
 
 /*Sección principal*/
@@ -97,4 +146,44 @@ aside.rightAside {
 footer {
     clear: both;
     margin-top: 3em;
+}
+
+nav#footerNav {
+    display: none;
+}
+
+nav#footerNav ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+
+/*Media Query 600px*/
+
+@media screen and (max-width: 600px) {
+    section.main,
+    aside.rightAside {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+/*Media Query 450px*/
+
+@media screen and (max-width: 450px) {
+    nav#topNav {
+        display: none;
+    }
+    div.column1,
+    div.column2 {
+        float: none;
+        width: 100%;
+    }
+    nav#footerNav {
+        display: block;
+    }
 }
