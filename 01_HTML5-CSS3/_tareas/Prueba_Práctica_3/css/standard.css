@@ -48,7 +48,6 @@ li {
     border: 1px solid black;
     padding: 1em 0.5em 1em 0.5em;
     text-align: center;
-    /*margin: 0.5em;*/
     border-radius: 0.5em 0.5em 0 0;
     transition: background-color 0.3s ease-in-out;
     font-weight: bold;
@@ -63,12 +62,10 @@ li:hover {
     font-weight: bold;
     color: black;
     cursor: pointer;
-    /*position: absolute;*/
 }
 
 li.withSubItems:hover {
     border: 1px solid black;
-    /*border-radius: 0.5em 0.5em 1em 1em;*/
     border-radius: 1em;
     padding-bottom: 1.8em;
 }
@@ -83,7 +80,6 @@ li:hover>ul {
 }
 
 ul ul li {
-    /*position: relative;*/
     top: 1.2em;
     float: none;
     width: 100%;
@@ -116,10 +112,10 @@ section.main {
     margin-right: 2%;
 }
 
-
-/*section.main h2 {
-
-}*/
+article img {
+    float: left;
+    width: 100%;
+}
 
 div.column1 {
     width: 49%;
