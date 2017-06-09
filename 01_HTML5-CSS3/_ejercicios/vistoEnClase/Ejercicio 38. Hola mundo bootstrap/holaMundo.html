@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hola mundo</title>
+    <meta name="author" content="Alejandro Castro">
+    <meta name="keywords" content="practice, ejercicios de clase, curso, aplicaciones, tecnologías, web, learning, enseñanza, html, html5">
+    <meta name="description" content="Ejercicio de aprendizaje para el desarrollo del curso Desarrollo de aplicaciones con tecnologías web impartido en 2017 en el colegio Tajamar">
+    <meta name="generator" content="Visual Studio Code. Versión 1.12.1">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        header {
+            background-color: maroon;
+            color: papayawhip;
+        }
+        
+        .logotipo {
+            background-color: palegreen;
+            color: blueviolet;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <!--Queremos hacer una fila así que...-->
+            <div class="row">
+                <!--col-xs-... es equivalente al grid visto anteriormente-->
+                <!--Podríamos añadir col-sm-offset-1 para tener una "columna vacía" por la izquierda-->
+                <header class="col-md-8 col-md-6 col-lg-12">
+                    <h1>Hola mundo Bootstrap</h1>
+                </header>
+                <div class="logotipo col-md-4 col-md-6 col-lg-12">
+                    Aquí irá el logotipo
+                    <!--<img src="images/yinyan.jpg" alt="">-->
+                </div>
+            </div>
+            <!--Cierre del row-->
+
+            <div class="row">
+                <section class="col-sm-9">
+                    <div class="row">
+                        <article class="col-sm-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis recusandae iste reprehenderit deserunt accusantium esse doloribus voluptas cupiditate illum aperiam a natus qui ab aliquam, sint, vitae autem laboriosam consectetur?</p>
+                        </article>
+                        <article class="col-sm-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis recusandae iste reprehenderit deserunt accusantium esse doloribus voluptas cupiditate illum aperiam a natus qui ab aliquam, sint, vitae autem laboriosam consectetur?</p>
+                        </article>
+                    </div>
+
+                </section>
+                <aside class="col-sm-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis recusandae iste reprehenderit deserunt accusantium esse doloribus voluptas cupiditate illum aperiam a natus qui ab aliquam, sint, vitae autem laboriosam consectetur?</p>
+                </aside>
+            </div>
+
+        </div>
+    </body>
+
+</html>
