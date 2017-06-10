@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    margin: 100px 100px;
+    background-color: #E8E8E8;
+}
+
+img {
+    margin-left: 50px;
+}
+
+p {
+    margin: 20px;
+    padding: 5px;
+    text-indent: 25px;
+}
+
+ul {
+    padding: 10px;
+    list-style-position: inside;
+    border-style: solid;
+    border-width: 1px;
+}
