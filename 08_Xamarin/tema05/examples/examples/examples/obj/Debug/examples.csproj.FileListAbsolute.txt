@@ -1,0 +1,15 @@
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\examples.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\examples.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Core.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Platform.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Core.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Core.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\obj\Debug\examples.MainPage.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\obj\Debug\examples.App.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\obj\Debug\examples.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\obj\Debug\examples.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples\examples\examples\obj\Debug\examples.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\tema08\Directorios\Directorios\bin\Debug\Directorios.exe.config
+C:\AC\localServer\Curso\SERVER\tema08\Directorios\Directorios\bin\Debug\Directorios.exe
+C:\AC\localServer\Curso\SERVER\tema08\Directorios\Directorios\bin\Debug\Directorios.pdb
+C:\AC\localServer\Curso\SERVER\tema08\Directorios\Directorios\obj\Debug\Directorios.exe
+C:\AC\localServer\Curso\SERVER\tema08\Directorios\Directorios\obj\Debug\Directorios.pdb

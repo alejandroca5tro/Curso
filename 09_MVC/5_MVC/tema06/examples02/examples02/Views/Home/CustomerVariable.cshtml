@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CustomerVariable</title>
+</head>
+<body>
+    <div> 
+        <div>El controlador es: @ViewBag.Controller</div>
+        <div>El método es: @ViewBag.Action</div>
+        <div>La variable es: @ViewBag.CustomerVariable</div>
+        <div>
+            @Html.ActionLink("Otro link", "Index", "Home", new { id = "Otra" }, new { id = "myLink1", @class = "myLink1Class" });
+
+            @Url.Action("Index", "Home", new { id = "MyId" });
+        </div>
+    </div>
+</body>
+</html>

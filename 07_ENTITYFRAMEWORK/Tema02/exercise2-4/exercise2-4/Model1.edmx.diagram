@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67042ee75e4047598a661bb832cb28db" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model1.Alumno" Width="1.5" PointX="4.875" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Empresa" Width="1.5" PointX="8.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Curso" Width="1.5" PointX="9.25" PointY="6" />
+        <EntityTypeShape EntityType="Model1.Profesor" Width="1.5" PointX="5.25" PointY="4.25" />
+        <EntityTypeShape EntityType="Model1.CursoAImpartir" Width="1.5" PointX="0.875" PointY="4.5" />
+        <AssociationConnector Association="Model1.ProfesorCursoAImpartir" />
+        <AssociationConnector Association="Model1.CursoCursoAImpartir" />
+        <EntityTypeShape EntityType="Model1.AlumnoCurso" Width="1.5" PointX="1.25" PointY="0.5" />
+        <AssociationConnector Association="Model1.AlumnoAlumnoCurso" />
+        <AssociationConnector Association="Model1.CursoAImpartirAlumnoCurso" />
+        <AssociationConnector Association="Model1.EmpresaAlumno" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

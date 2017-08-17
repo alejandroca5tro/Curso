@@ -1,0 +1,29 @@
+﻿@using ciudades.Models
+@model VMIndex
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            @Html.DropDownListFor(co => co.SelectedCommunity, new SelectList(Model.communities, "Id", "Name"))
+            <input value="Ver ciudades" type="submit" />
+
+
+
+            @Html.DropDownListFor(ci => ci.SelectedCity, new SelectList(Model.cities, "Id", "Name"))
+            <input value="Ver Información sobre la ciudad" type="submit" />
+        } 
+    </div>
+</body>
+</html>

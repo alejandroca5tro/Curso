@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\bin\Debug\Introduction01.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\bin\Debug\Introduction01.exe
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\bin\Debug\Introduction01.pdb
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\obj\Debug\Introduction01.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\obj\Debug\Introduction01.exe
+C:\AC\localServer\Curso\SERVER\practice01\Introduction01\Introduction01\obj\Debug\Introduction01.pdb

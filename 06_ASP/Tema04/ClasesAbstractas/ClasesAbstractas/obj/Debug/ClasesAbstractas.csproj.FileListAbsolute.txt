@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.exe.config
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.exe
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.exe
+C:\AC\localServer\Curso\SERVER\tema04\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb

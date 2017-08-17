@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exercise02_2.Page2">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="EndAndExpand">
+            <StackLayout HeightRequest="">
+                <Label
+                    Text="Hola"
+                    FontSize="40"
+                    BackgroundColor="Gray"
+                    TextColor="Black"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Label
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id massa sollicitudin, eleifend dolor"
+                    FontSize="20"
+                    FontFamily="Courier"
+                    BackgroundColor="BurlyWood"
+                    TextColor="White"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="FillAndExpand"
+                    />
+                <Button
+                    x:Name="button"
+                    Text="Make It So"
+                    BackgroundColor="Yellow"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Fill"
+                    />
+                <Entry
+                    Placeholder="UserName"
+                    VerticalOptions="Center"
+                    Keyboard="Text"
+                    />
+                <BoxView
+                    Color="Silver"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalOptions="Fill"
+                    />
+                <Image x:Name="image"
+                       Source="start.png"
+                       Aspect="AspectFit"
+                       HorizontalOptions="End"
+                       VerticalOptions="Fill"
+                       />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

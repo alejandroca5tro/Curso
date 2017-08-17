@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\practice01\ejercicio1.18\ejercicio1.18\bin\Debug\ejercicio1.18.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\ejercicio1.18\ejercicio1.18\bin\Debug\ejercicio1.18.exe
+C:\AC\localServer\Curso\SERVER\practice01\ejercicio1.18\ejercicio1.18\bin\Debug\ejercicio1.18.pdb
+C:\AC\localServer\Curso\SERVER\practice01\ejercicio1.18\ejercicio1.18\obj\Debug\ejercicio1.18.exe
+C:\AC\localServer\Curso\SERVER\practice01\ejercicio1.18\ejercicio1.18\obj\Debug\ejercicio1.18.pdb

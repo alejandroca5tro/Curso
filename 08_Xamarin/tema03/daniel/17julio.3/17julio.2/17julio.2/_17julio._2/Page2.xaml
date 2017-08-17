@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_17julio._2.Page2">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand">
+            <StackLayout HeightRequest="1550">
+                <Label Text="Label" FontSize="40"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="Black" TextColor="AntiqueWhite">
+                    
+                </Label>
+
+                <Label Text="Este control tiene muchas mas lineas"
+                       FontSize="20" FontFamily="Courier" FontAttributes="Italic" 
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="Black" TextColor="AntiqueWhite">
+
+                </Label>
+
+                <Button x:Name="boton"
+                        HorizontalOptions="Center" VerticalOptions="Fill"
+                        Text="Make It So"
+                        BackgroundColor="Yellow">
+                    
+                </Button>
+
+                <Entry Placeholder="UserName" 
+                       Keyboard="Text"
+                       VerticalOptions="Center">
+                    
+                </Entry>
+                <BoxView Color="Silver"
+                         HorizontalOptions="StartAndExpand" VerticalOptions="Fill"
+                         WidthRequest="150" HeightRequest="150">
+                    
+                </BoxView>
+                <Image x:Name="image"
+                       Aspect="AspectFit" HorizontalOptions="End" VerticalOptions="Fill"
+                       Source="b60d85053805086eb22ad98c6288e23f.png"></Image>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

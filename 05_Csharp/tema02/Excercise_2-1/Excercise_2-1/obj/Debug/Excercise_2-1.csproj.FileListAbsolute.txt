@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\tema02\Excercise_2-1\Excercise_2-1\bin\Debug\Excercise_2-1.exe.config
+C:\AC\localServer\Curso\SERVER\tema02\Excercise_2-1\Excercise_2-1\bin\Debug\Excercise_2-1.exe
+C:\AC\localServer\Curso\SERVER\tema02\Excercise_2-1\Excercise_2-1\bin\Debug\Excercise_2-1.pdb
+C:\AC\localServer\Curso\SERVER\tema02\Excercise_2-1\Excercise_2-1\obj\Debug\Excercise_2-1.exe
+C:\AC\localServer\Curso\SERVER\tema02\Excercise_2-1\Excercise_2-1\obj\Debug\Excercise_2-1.pdb

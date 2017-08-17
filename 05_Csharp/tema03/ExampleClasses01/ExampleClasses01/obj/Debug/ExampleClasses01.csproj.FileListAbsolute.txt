@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\tema03\ExampleClasses01\ExampleClasses01\bin\Debug\ExampleClasses01.exe.config
+C:\AC\localServer\Curso\SERVER\tema03\ExampleClasses01\ExampleClasses01\bin\Debug\ExampleClasses01.exe
+C:\AC\localServer\Curso\SERVER\tema03\ExampleClasses01\ExampleClasses01\bin\Debug\ExampleClasses01.pdb
+C:\AC\localServer\Curso\SERVER\tema03\ExampleClasses01\ExampleClasses01\obj\Debug\ExampleClasses01.exe
+C:\AC\localServer\Curso\SERVER\tema03\ExampleClasses01\ExampleClasses01\obj\Debug\ExampleClasses01.pdb

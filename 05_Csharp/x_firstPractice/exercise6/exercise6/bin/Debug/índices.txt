@@ -1,0 +1,20 @@
+REGISTRO DE JUGADORES
+
+Jugador 1:
+- Nombre: Samuel
+- Peso: 93
+- Altura: 185
+- Índice de Masa Corporal: 27,17
+
+Jugador 2:
+- Nombre: Jonathan
+- Peso: 90
+- Altura: 183
+- Índice de Masa Corporal: 26,87
+
+Jugador 3:
+- Nombre: Joe
+- Peso: 118
+- Altura: 196
+- Índice de Masa Corporal: 30,72
+

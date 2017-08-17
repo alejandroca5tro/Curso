@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\practice01\Split\Split\bin\Debug\Split.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\Split\Split\bin\Debug\Split.exe
+C:\AC\localServer\Curso\SERVER\practice01\Split\Split\bin\Debug\Split.pdb
+C:\AC\localServer\Curso\SERVER\practice01\Split\Split\obj\Debug\Split.exe
+C:\AC\localServer\Curso\SERVER\practice01\Split\Split\obj\Debug\Split.pdb

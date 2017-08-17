@@ -1,0 +1,13 @@
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.UI.exe.config
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.Form1.resources
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.UI.exe
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.UI.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.Negocio.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.Datos.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.Negocio.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\bin\Debug\Tajamar.Datos.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.exe
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.UI\obj\Debug\Tajamar.UI.pdb

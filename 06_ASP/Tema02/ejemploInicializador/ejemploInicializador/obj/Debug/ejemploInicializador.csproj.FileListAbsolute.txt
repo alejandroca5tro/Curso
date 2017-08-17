@@ -1,0 +1,1 @@
+C:\AC\localServer\Curso\SERVER\ASP\Tema02\ejemploInicializador\ejemploInicializador\bin\Debug\ejemploInicializador.exe.config

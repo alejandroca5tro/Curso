@@ -1,0 +1,13 @@
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.UI.exe.config
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.UI.exe
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.UI.pdb
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.Negocio.dll
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.Datos.dll
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.Negocio.pdb
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\bin\Debug\3LE3.Datos.pdb
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\3LE3.UI.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\_3LE3.UI.Form1.resources
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\_3LE3.UI.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\3LE3.UI.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\3LE3.UI.exe
+C:\AC\localServer\Curso\SERVER\tema10\3capasejemplo2\3LE3.UI\obj\Debug\3LE3.UI.pdb

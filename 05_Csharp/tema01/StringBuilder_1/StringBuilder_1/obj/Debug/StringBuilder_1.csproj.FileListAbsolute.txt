@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\bin\Debug\StringBuilder_1.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\bin\Debug\StringBuilder_1.exe
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\bin\Debug\StringBuilder_1.pdb
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\obj\Debug\StringBuilder_1.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\obj\Debug\StringBuilder_1.exe
+C:\AC\localServer\Curso\SERVER\practice01\StringBuilder_1\StringBuilder_1\obj\Debug\StringBuilder_1.pdb

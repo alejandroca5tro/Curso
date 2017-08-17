@@ -1,0 +1,15 @@
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\exercise04_1.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\exercise04_1.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Core.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Core.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\obj\Debug\exercise04_1.MainPage.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\obj\Debug\exercise04_1.App.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\obj\Debug\exercise04_1.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\obj\Debug\exercise04_1.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\x_practice\exercise04-1\exercise04-1\exercise04_1\obj\Debug\exercise04_1.csprojResolveAssemblyReference.cache

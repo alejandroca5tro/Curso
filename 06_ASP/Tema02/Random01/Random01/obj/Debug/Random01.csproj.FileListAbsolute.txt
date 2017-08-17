@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\bin\Debug\Random01.exe.config
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\bin\Debug\Random01.exe
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\bin\Debug\Random01.pdb
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\obj\Debug\Random01.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\obj\Debug\Random01.exe
+C:\AC\localServer\Curso\SERVER\tema02\Random01\Random01\obj\Debug\Random01.pdb

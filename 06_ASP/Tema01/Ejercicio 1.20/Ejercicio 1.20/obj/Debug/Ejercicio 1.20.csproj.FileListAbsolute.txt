@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\bin\Debug\Ejercicio 1.20.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\obj\Debug\Ejercicio 1.20.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\bin\Debug\Ejercicio 1.20.exe
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\bin\Debug\Ejercicio 1.20.pdb
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\obj\Debug\Ejercicio 1.20.exe
+C:\AC\localServer\Curso\SERVER\practice01\Ejercicio 1.20\Ejercicio 1.20\obj\Debug\Ejercicio 1.20.pdb

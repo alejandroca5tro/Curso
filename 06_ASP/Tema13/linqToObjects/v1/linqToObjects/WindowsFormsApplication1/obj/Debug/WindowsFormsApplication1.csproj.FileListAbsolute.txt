@@ -1,0 +1,11 @@
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\bin\Debug\Libreria.dll
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\bin\Debug\Libreria.pdb
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\AC\localServer\Curso\SERVER\ASP\Tema13\linqToObjects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

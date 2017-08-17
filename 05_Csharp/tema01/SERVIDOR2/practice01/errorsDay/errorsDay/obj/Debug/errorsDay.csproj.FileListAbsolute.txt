@@ -1,0 +1,6 @@
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\bin\Debug\errorsDay.exe.config
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\bin\Debug\errorsDay.exe
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\bin\Debug\errorsDay.pdb
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\obj\Debug\errorsDay.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\obj\Debug\errorsDay.exe
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\errorsDay\errorsDay\obj\Debug\errorsDay.pdb

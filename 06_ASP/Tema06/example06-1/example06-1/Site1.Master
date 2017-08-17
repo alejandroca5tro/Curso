@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="example06_1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Ejemplo de página maestra</title>
+    <link href="standard.css" rel="stylesheet" />
+    <script src="start.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+            <asp:ContentPlaceHolder ID="header" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <img src="images/Tux.png" width="100" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="contenido" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="footer" runat="server"> 
+            </asp:ContentPlaceHolder>
+            <p>Todos los derechos reservados</p>   
+        </div>
+    </div>
+    </form>
+</body>
+</html>

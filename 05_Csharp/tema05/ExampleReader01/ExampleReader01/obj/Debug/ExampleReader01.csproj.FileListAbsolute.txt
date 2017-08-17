@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\bin\Debug\ExampleReader01.exe.config
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\bin\Debug\ExampleReader01.exe
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\bin\Debug\ExampleReader01.pdb
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\obj\Debug\ExampleReader01.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\obj\Debug\ExampleReader01.exe
+C:\AC\localServer\Curso\SERVER\tema05\ExampleReader01\ExampleReader01\obj\Debug\ExampleReader01.pdb

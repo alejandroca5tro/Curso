@@ -1,0 +1,9 @@
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\bin\Debug\exercise5.exe.config
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\bin\Debug\exercise5.exe
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\bin\Debug\exercise5.pdb
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\obj\Debug\exercise5.csprojResolveAssemblyReference.cache
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\obj\Debug\exercise5.exe
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\obj\Debug\exercise5.pdb
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\bin\Debug\exercise5.exe.config
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\obj\Debug\exercise5.exe
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise5\exercise5\obj\Debug\exercise5.pdb

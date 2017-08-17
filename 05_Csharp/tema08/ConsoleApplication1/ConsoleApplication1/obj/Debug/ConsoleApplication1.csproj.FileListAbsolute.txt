@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\AC\localServer\Curso\SERVER\tema08\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

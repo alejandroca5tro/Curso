@@ -1,0 +1,17 @@
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\_17julio._2.dll
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\_17julio._2.pdb
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Core.dll
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Platform.dll
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Core.xml
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\curso2\17julio.2\17julio.2\_17julio._2\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.MainPage.xaml.g.cs
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.App.xaml.g.cs
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.dll
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.pdb
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.Page2.xaml.g.cs
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.csprojResolveAssemblyReference.cache
+C:\curso2\17julio.2\17julio.2\_17julio._2\obj\Debug\_17julio._2.Page3.xaml.g.cs

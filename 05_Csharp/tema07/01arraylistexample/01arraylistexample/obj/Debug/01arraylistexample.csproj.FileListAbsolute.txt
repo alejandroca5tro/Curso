@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\bin\Debug\01arraylistexample.exe.config
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\bin\Debug\01arraylistexample.exe
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\bin\Debug\01arraylistexample.pdb
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\obj\Debug\01arraylistexample.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\obj\Debug\01arraylistexample.exe
+C:\AC\localServer\Curso\SERVER\tema07\01arraylistexample\01arraylistexample\obj\Debug\01arraylistexample.pdb

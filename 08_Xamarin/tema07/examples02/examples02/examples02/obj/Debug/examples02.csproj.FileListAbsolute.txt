@@ -1,0 +1,17 @@
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\examples02.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\examples02.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\SQLite.Net.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Core.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Platform.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Core.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Core.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.MainPage.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.App.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.csprojResolveAssemblyReference.cache
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema07\examples02\examples02\examples02\obj\Debug\examples02.EditPage.xaml.g.cs

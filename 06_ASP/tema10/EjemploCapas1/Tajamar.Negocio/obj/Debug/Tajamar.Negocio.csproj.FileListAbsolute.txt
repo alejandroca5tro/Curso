@@ -1,0 +1,7 @@
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\bin\Debug\Tajamar.Negocio.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\bin\Debug\Tajamar.Negocio.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\bin\Debug\Tajamar.Datos.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\bin\Debug\Tajamar.Datos.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Negocio\obj\Debug\Tajamar.Negocio.pdb

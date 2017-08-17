@@ -1,0 +1,2 @@
+ESta es la primera línea del fichero
+Esto es otray esto es la continuación de la anterior

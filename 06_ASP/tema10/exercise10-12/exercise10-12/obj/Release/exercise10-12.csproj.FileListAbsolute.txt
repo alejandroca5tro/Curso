@@ -1,0 +1,8 @@
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\bin\Release\exercise10-12.exe.config
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\bin\Release\exercise10-12.exe
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\bin\Release\exercise10-12.pdb
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\obj\Release\exercise10_12.Form1.resources
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\obj\Release\exercise10_12.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\obj\Release\exercise10-12.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\obj\Release\exercise10-12.exe
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-12\exercise10-12\obj\Release\exercise10-12.pdb

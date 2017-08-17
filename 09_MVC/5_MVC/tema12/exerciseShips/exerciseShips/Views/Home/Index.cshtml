@@ -1,0 +1,42 @@
+﻿@using exerciseShips.Models
+@model VMComboShips
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*Forma 1 de llenar el combo (ViewBag usando el mismo nombre)
+    <div> 
+        @using (Html.BeginForm())
+            {
+            @Html.DropDownList("Ships")
+            <input type="submit" value="Aceptar" />
+        }
+    </div>*@
+
+    @*Forma 2 de llenar el combo (ViewBag usando nombres distintos)
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.DropDownList("SelectedShip", ViewBag.Ships as IEnumerable<SelectListItem>)
+            <input type="submit" value="Aceptar" />
+        }
+    </div>*@
+
+    Forma 3 de llenar el combo (Usando DropDownListFor)
+    <div>
+        @using (Html.BeginForm())
+        {
+                @Html.DropDownListFor(s => s.SelectedShip, new SelectList(Model.Ships, "BarcoId", "NombreBarco"))
+                <input value="Enviar" type="submit" />
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\bin\Debug\Cadenas.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\obj\Debug\Cadenas.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\bin\Debug\Cadenas.exe
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\bin\Debug\Cadenas.pdb
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\obj\Debug\Cadenas.exe
+C:\AC\localServer\Curso\SERVER\practice01\Cadenas\Cadenas\obj\Debug\Cadenas.pdb

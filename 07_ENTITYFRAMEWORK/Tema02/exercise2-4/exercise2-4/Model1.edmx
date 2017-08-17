@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="Model1TargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AlumnoSet" EntityType="Model1.Alumno" />
+          <EntitySet Name="EmpresaSet" EntityType="Model1.Empresa" />
+          <EntitySet Name="CursoSet" EntityType="Model1.Curso" />
+          <EntitySet Name="ProfesorSet" EntityType="Model1.Profesor" />
+          <EntitySet Name="CursoAImpartirSet" EntityType="Model1.CursoAImpartir" />
+          <AssociationSet Name="ProfesorCursoAImpartir" Association="Model1.ProfesorCursoAImpartir">
+            <End Role="Profesor" EntitySet="ProfesorSet" />
+            <End Role="CursoAImpartir" EntitySet="CursoAImpartirSet" />
+          </AssociationSet>
+          <AssociationSet Name="CursoCursoAImpartir" Association="Model1.CursoCursoAImpartir">
+            <End Role="Curso" EntitySet="CursoSet" />
+            <End Role="CursoAImpartir" EntitySet="CursoAImpartirSet" />
+          </AssociationSet>
+          <EntitySet Name="AlumnoCursoSet" EntityType="Model1.AlumnoCurso" />
+          <AssociationSet Name="AlumnoAlumnoCurso" Association="Model1.AlumnoAlumnoCurso">
+            <End Role="Alumno" EntitySet="AlumnoSet" />
+            <End Role="AlumnoCurso" EntitySet="AlumnoCursoSet" />
+          </AssociationSet>
+          <AssociationSet Name="CursoAImpartirAlumnoCurso" Association="Model1.CursoAImpartirAlumnoCurso">
+            <End Role="CursoAImpartir" EntitySet="CursoAImpartirSet" />
+            <End Role="AlumnoCurso" EntitySet="AlumnoCursoSet" />
+          </AssociationSet>
+          <AssociationSet Name="EmpresaAlumno" Association="Model1.EmpresaAlumno">
+            <End Role="Empresa" EntitySet="EmpresaSet" />
+            <End Role="Alumno" EntitySet="AlumnoSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Alumno">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+          <Property Name="Direccion" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Telefono" Type="String" Nullable="false" />
+          <Property Name="Edad" Type="String" Nullable="false" />
+          <Property Name="EmpresaId" Type="String" Nullable="false" />
+          <NavigationProperty Name="AlumnoCurso" Relationship="Model1.AlumnoAlumnoCurso" FromRole="Alumno" ToRole="AlumnoCurso" />
+          <NavigationProperty Name="Empresa" Relationship="Model1.EmpresaAlumno" FromRole="Alumno" ToRole="Empresa" />
+        </EntityType>
+        <EntityType Name="Empresa">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CIF" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Telefono" Type="String" Nullable="false" />
+          <Property Name="Direccion" Type="String" Nullable="false" />
+          <NavigationProperty Name="Alumno" Relationship="Model1.EmpresaAlumno" FromRole="Empresa" ToRole="Alumno" />
+        </EntityType>
+        <EntityType Name="Curso">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Programa" Type="String" Nullable="false" />
+          <Property Name="Duracion" Type="String" Nullable="false" />
+          <Property Name="Titulo" Type="String" Nullable="false" />
+          <NavigationProperty Name="CursoAImpartir" Relationship="Model1.CursoCursoAImpartir" FromRole="Curso" ToRole="CursoAImpartir" />
+        </EntityType>
+        <EntityType Name="Profesor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Apellidos" Type="String" Nullable="false" />
+          <Property Name="Direccion" Type="String" Nullable="false" />
+          <Property Name="Telefono" Type="String" Nullable="false" />
+          <NavigationProperty Name="CursoAImpartir" Relationship="Model1.ProfesorCursoAImpartir" FromRole="Profesor" ToRole="CursoAImpartir" />
+        </EntityType>
+        <EntityType Name="CursoAImpartir">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProfesorId" Type="String" Nullable="false" />
+          <NavigationProperty Name="Profesor" Relationship="Model1.ProfesorCursoAImpartir" FromRole="CursoAImpartir" ToRole="Profesor" />
+          <Property Name="CursoId" Type="String" Nullable="false" />
+          <NavigationProperty Name="Curso" Relationship="Model1.CursoCursoAImpartir" FromRole="CursoAImpartir" ToRole="Curso" />
+          <Property Name="FxInicio" Type="String" Nullable="false" />
+          <Property Name="FxFin" Type="String" Nullable="false" />
+          <NavigationProperty Name="AlumnoCurso" Relationship="Model1.CursoAImpartirAlumnoCurso" FromRole="CursoAImpartir" ToRole="AlumnoCurso" />
+        </EntityType>
+        <Association Name="ProfesorCursoAImpartir">
+          <End Type="Model1.Profesor" Role="Profesor" Multiplicity="1" />
+          <End Type="Model1.CursoAImpartir" Role="CursoAImpartir" Multiplicity="*" />
+        </Association>
+        <Association Name="CursoCursoAImpartir">
+          <End Type="Model1.Curso" Role="Curso" Multiplicity="1" />
+          <End Type="Model1.CursoAImpartir" Role="CursoAImpartir" Multiplicity="*" />
+        </Association>
+        <EntityType Name="AlumnoCurso">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AlumnoId" Type="String" Nullable="false" />
+          <Property Name="CursoImpartidoId" Type="String" Nullable="false" />
+          <Property Name="Nota" Type="String" Nullable="false" />
+          <NavigationProperty Name="Alumno" Relationship="Model1.AlumnoAlumnoCurso" FromRole="AlumnoCurso" ToRole="Alumno" />
+          <NavigationProperty Name="CursoAImpartir" Relationship="Model1.CursoAImpartirAlumnoCurso" FromRole="AlumnoCurso" ToRole="CursoAImpartir" />
+        </EntityType>
+        <Association Name="AlumnoAlumnoCurso">
+          <End Type="Model1.Alumno" Role="Alumno" Multiplicity="1" />
+          <End Type="Model1.AlumnoCurso" Role="AlumnoCurso" Multiplicity="*" />
+        </Association>
+        <Association Name="CursoAImpartirAlumnoCurso">
+          <End Type="Model1.CursoAImpartir" Role="CursoAImpartir" Multiplicity="1" />
+          <End Type="Model1.AlumnoCurso" Role="AlumnoCurso" Multiplicity="*" />
+        </Association>
+        <Association Name="EmpresaAlumno">
+          <End Type="Model1.Empresa" Role="Empresa" Multiplicity="1" />
+          <End Type="Model1.Alumno" Role="Alumno" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="Model1" />
+        <Alias Key="Target" Value="Model1.Store" />
+        <EntityContainerMapping CdmEntityContainer="Model1Container" StorageEntityContainer="Model1TargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

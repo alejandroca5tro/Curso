@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\bin\Debug\Excercise_3-5.exe.config
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\bin\Debug\Excercise_3-5.exe
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\bin\Debug\Excercise_3-5.pdb
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\obj\Debug\Excercise_3-5.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\obj\Debug\Excercise_3-5.exe
+C:\AC\localServer\Curso\SERVER\tema03\Excercise_3-5\Excercise_3-5\obj\Debug\Excercise_3-5.pdb

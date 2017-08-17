@@ -1,0 +1,14 @@
+﻿@model Combos.Models.ComboComunidadesViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{ 
+    @Html.DropDownListFor(m=>m.ComunidadSelec, new SelectList(Model.Comunidades,"Id","Nombre" ))
+    <input type="submit" value="Submit" />
+
+}

@@ -1,0 +1,12 @@
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.exe.config
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.exe
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.pdb
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.csprojResolveAssemblyReference.cache
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.exe
+C:\Ale\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.pdb
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.exe.config
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.exe
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.pdb
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.exe
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\bin\Debug\exercise3.pdb
+C:\AC\localServer\Curso\SERVER\firstPractice\exercise3\exercise3\obj\Debug\exercise3.csprojResolveAssemblyReference.cache

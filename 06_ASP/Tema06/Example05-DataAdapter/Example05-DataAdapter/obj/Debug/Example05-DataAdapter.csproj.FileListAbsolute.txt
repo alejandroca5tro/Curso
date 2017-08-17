@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\bin\Debug\Example05-DataAdapter.exe.config
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\bin\Debug\Example05-DataAdapter.exe
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\bin\Debug\Example05-DataAdapter.pdb
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\obj\Debug\Example05-DataAdapter.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\obj\Debug\Example05-DataAdapter.exe
+C:\AC\localServer\Curso\SERVER\tema06\Example05-DataAdapter\Example05-DataAdapter\obj\Debug\Example05-DataAdapter.pdb

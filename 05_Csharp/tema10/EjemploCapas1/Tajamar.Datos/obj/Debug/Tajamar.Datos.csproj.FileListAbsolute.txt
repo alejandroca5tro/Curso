@@ -1,0 +1,4 @@
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Datos\bin\Debug\Tajamar.Datos.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Datos\bin\Debug\Tajamar.Datos.pdb
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Datos\obj\Debug\Tajamar.Datos.dll
+C:\AC\localServer\Curso\SERVER\tema10\EjemploCapas1\Tajamar.Datos\obj\Debug\Tajamar.Datos.pdb

@@ -1,0 +1,1 @@
+C:\AC\localServer\Curso\SERVER\tema04\ConstructoFromConstsructor\ConstructoFromConstsructor\bin\Debug\ConstructoFromConstsructor.exe.config

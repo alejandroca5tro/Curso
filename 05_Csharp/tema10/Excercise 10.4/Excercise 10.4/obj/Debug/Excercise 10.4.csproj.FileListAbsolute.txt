@@ -1,0 +1,10 @@
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\bin\Debug\Excercise 10.4.exe.config
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\bin\Debug\Excercise 10.4.exe
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\bin\Debug\Excercise 10.4.pdb
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise 10.4.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise_10._4.Form1.resources
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise_10._4.Form2.resources
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise_10._4.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise 10.4.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise 10.4.exe
+C:\AC\localServer\Curso\SERVER\tema10\Excercise 10.4\Excercise 10.4\obj\Debug\Excercise 10.4.pdb

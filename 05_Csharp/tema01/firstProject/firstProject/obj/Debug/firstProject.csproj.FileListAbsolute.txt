@@ -1,0 +1,9 @@
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\bin\Debug\firstProject.exe.config
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\bin\Debug\firstProject.exe
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\bin\Debug\firstProject.pdb
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\obj\Debug\firstProject.csprojResolveAssemblyReference.cache
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\obj\Debug\firstProject.exe
+C:\Users\Web2017\Documents\Visual Studio 2015\Projects\SERVIDOR\practice01\firstProject\firstProject\obj\Debug\firstProject.pdb
+C:\AC\localServer\Curso\SERVER\practice01\firstProject\firstProject\bin\Debug\firstProject.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\firstProject\firstProject\obj\Debug\firstProject.exe
+C:\AC\localServer\Curso\SERVER\practice01\firstProject\firstProject\obj\Debug\firstProject.pdb

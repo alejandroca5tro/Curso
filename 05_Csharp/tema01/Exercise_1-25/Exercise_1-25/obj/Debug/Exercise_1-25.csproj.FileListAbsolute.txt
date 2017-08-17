@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\bin\Debug\Exercise_1-25.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\bin\Debug\Exercise_1-25.exe
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\bin\Debug\Exercise_1-25.pdb
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\obj\Debug\Exercise_1-25.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\obj\Debug\Exercise_1-25.exe
+C:\AC\localServer\Curso\SERVER\practice01\Exercise_1-25\Exercise_1-25\obj\Debug\Exercise_1-25.pdb

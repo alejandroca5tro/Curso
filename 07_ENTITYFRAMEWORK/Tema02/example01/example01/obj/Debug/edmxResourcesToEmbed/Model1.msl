@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VientoNorteModelStoreContainer" CdmEntityContainer="VientoNorteEntities">
+    <EntitySetMapping Name="ClientesSet">
+      <EntityTypeMapping TypeName="VientoNorteModel.ClientesSet">
+        <MappingFragment StoreEntitySet="ClientesSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidosSet">
+      <EntityTypeMapping TypeName="VientoNorteModel.PedidosSet">
+        <MappingFragment StoreEntitySet="PedidosSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ClientesId" ColumnName="ClientesId" />
+          <ScalarProperty Name="ProductosId" ColumnName="ProductosId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductosSet">
+      <EntityTypeMapping TypeName="VientoNorteModel.ProductosSet">
+        <MappingFragment StoreEntitySet="ProductosSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

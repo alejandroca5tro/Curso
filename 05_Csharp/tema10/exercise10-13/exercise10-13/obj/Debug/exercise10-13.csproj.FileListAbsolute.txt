@@ -1,0 +1,10 @@
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\bin\Debug\exercise10-13.exe.config
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\bin\Debug\exercise10-13.exe
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\bin\Debug\exercise10-13.pdb
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10_13.Form1.resources
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10_13.Properties.Resources.resources
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10-13.csproj.GenerateResource.Cache
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10-13.exe
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10-13.pdb
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10_13.Form2.resources
+C:\AC\localServer\Curso\SERVER\tema10\exercise10-13\exercise10-13\obj\Debug\exercise10-13.csprojResolveAssemblyReference.cache

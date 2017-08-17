@@ -1,0 +1,9 @@
+C:\novale\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.exe.config
+C:\novale\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.exe
+C:\novale\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.pdb
+C:\novale\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.csprojResolveAssemblyReference.cache
+C:\novale\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.exe
+C:\novale\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.pdb
+C:\AC\localServer\Curso\SERVER\tema06\ConsoleApplication19\ConsoleApplication19\bin\Debug\ConsoleApplication19.exe.config
+C:\AC\localServer\Curso\SERVER\tema06\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.exe
+C:\AC\localServer\Curso\SERVER\tema06\ConsoleApplication19\ConsoleApplication19\obj\Debug\ConsoleApplication19.pdb

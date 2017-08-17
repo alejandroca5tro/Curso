@@ -1,0 +1,6 @@
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\bin\Debug\003EjemplosString.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\bin\Debug\003EjemplosString.exe
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\bin\Debug\003EjemplosString.pdb
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\obj\Debug\003EjemplosString.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\obj\Debug\003EjemplosString.exe
+C:\AC\localServer\Curso\SERVER\practice01\003EjemplosString\003EjemplosString\obj\Debug\003EjemplosString.pdb

@@ -1,0 +1,5 @@
+C:\AC\localServer\Curso\SERVER\practice01\arrays03\arrays03\bin\Debug\arrays03.exe.config
+C:\AC\localServer\Curso\SERVER\practice01\arrays03\arrays03\bin\Debug\arrays03.exe
+C:\AC\localServer\Curso\SERVER\practice01\arrays03\arrays03\bin\Debug\arrays03.pdb
+C:\AC\localServer\Curso\SERVER\practice01\arrays03\arrays03\obj\Debug\arrays03.exe
+C:\AC\localServer\Curso\SERVER\practice01\arrays03\arrays03\obj\Debug\arrays03.pdb

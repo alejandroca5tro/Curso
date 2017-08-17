@@ -1,0 +1,15 @@
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\examples_2.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\examples_2.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Core.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Platform.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Core.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\obj\Debug\examples_2.csprojResolveAssemblyReference.cache
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\obj\Debug\examples_2.MainPage.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\obj\Debug\examples_2.App.xaml.g.cs
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\obj\Debug\examples_2.dll
+C:\00\00\id01_Curso\2_SERVER\4_XAMARIN\tema05\examples-2\examples-2\examples_2\obj\Debug\examples_2.pdb

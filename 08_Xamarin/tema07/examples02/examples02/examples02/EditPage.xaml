@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examples02.EditPage">
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="10">
+            <Label Text="Editar Empleado"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   Font="24"/>
+            <Entry x:Name="nameEntry"
+                   TextColor="Black"
+                   Placeholder="Nombre"/>
+            <Entry x:Name="lastNameEntry"
+                   TextColor="Black"
+                   Placeholder="Nombre"/>
+            <Entry x:Name="salaryEntry"
+                   TextColor="Black"
+                   Placeholder="Nombre"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Fecha de contrato"
+                   VerticalOptions="Center"
+                   Font="24"/>
+                <DatePicker x:Name="contractDateDP"/>
+                <Label Text="Activo"
+                       Font="24"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <Switch x:Name="activeSwitch"
+                        IsToggled="True"
+                        HorizontalOptions="End"
+                        VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="updateButton"
+                        VerticalOptions="Start"
+                        BackgroundColor="Yellow"
+                        TextColor="Black"
+                        Text="Actualizar"/>
+                <Button x:Name="deleteButton"
+                        HorizontalOptions="End"
+                        BackgroundColor="Yellow"
+                        TextColor="Black"
+                        Text="Borrar"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

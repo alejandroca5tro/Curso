@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_17julio._2.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="APUESTAS BOT365" FontSize="30"
+                   BackgroundColor="Green" TextColor="Yellow" />
+        
+        
+            <Entry Placeholder="UserName" x:Name="nombre"
+                   Keyboard="Text" HorizontalOptions="Fill">
+                
+            </Entry>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="-" x:Name="menos" BackgroundColor="Silver">
+                    
+                </Button>
+                <Label x:Name="relleno" 
+                       Text="10" BackgroundColor="Orange">
+                    
+                </Label>
+                <Button Text="+" BackgroundColor="Silver" x:Name="mas">
+                    
+                </Button>
+            </StackLayout>
+            <Button x:Name="Apostar">
+                
+            </Button>
+            <StackLayout>
+                <Label x:Name="rNombre">
+                    
+                </Label>
+                
+                <Label x:Name="rApuesta">
+                    
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

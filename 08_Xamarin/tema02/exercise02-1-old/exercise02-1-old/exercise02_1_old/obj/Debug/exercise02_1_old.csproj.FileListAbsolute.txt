@@ -1,0 +1,15 @@
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\obj\Debug\exercise02_1_old.csprojResolveAssemblyReference.cache
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\obj\Debug\exercise02_1_old.MainPage.xaml.g.cs
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\obj\Debug\exercise02_1_old.App.xaml.g.cs
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\exercise02_1_old.dll
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\exercise02_1_old.pdb
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Core.dll
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Platform.dll
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Core.pdb
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Core.xml
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\obj\Debug\exercise02_1_old.dll
+C:\AC\localServer\Curso\SERVER\4_XAMARIN\Tema02\exercise02-1-old\exercise02-1-old\exercise02_1_old\obj\Debug\exercise02_1_old.pdb
