@@ -1,0 +1,21 @@
+﻿@model List<exerciseShips.Models.Crewman>
+@{
+    Layout = null;
+}
+<h2>TRIPULACION DEL BARCO</h2>
+<br />
+@Html.ActionLink("Atrás", "Index", "HomeController")
+<br />
+<table border="1">
+    <tr><th>Marinero</th><th>Cargo</th><th>Fecha Título</th></tr>
+
+    @foreach (exerciseShips.Models.Crewman c in Model)
+    {
+        <tr>
+            <td>@c.NombreTripulante</td>
+            <td>@c.Cargo</td>
+            <td>@c.FechaTituloNavegacion</td>
+        </tr>
+    }
+</table>
+<br />

@@ -1,0 +1,38 @@
+﻿@using exercise0701.Models
+@model List<Ship>
+@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h2>Listado de Barcos</h2>
+        @Html.ActionLink("Principal", "Index", "Home");
+        <table border="1">
+            <tr>
+                <th>Barco</th>
+                <th>Año</th>
+                <th>Coste</th>
+                <th>Última R.</th>
+                @foreach (Ship b in Model)
+                {
+                <tr>
+                    <td>@b.ShipName</td>
+                    <td>@b.BuildingCost</td>
+                    <td>@b.BuildingYear</td>
+                    <td>@b.LastRepairDate</td>
+                    <td>@Html.ActionLink("Ver Tripulación", "Index", "Tripulante", new { id = b.ShipId, nombre = b.ShipName }, null)</td>
+                </tr>
+                }
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

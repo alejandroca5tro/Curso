@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreatePerson</title>
+</head>
+<body>
+    <div>
+        @Html.BeginForm()
+        <div>
+            <label>PersonId</label>
+            <input name="personaId" value="@Model.PersonId" />
+        </div>
+        <div>
+            <label>Apellido</label>
+            <input name="FirstName" value="@Model.FirstName"/>
+        </div>
+        <div>
+            @Html.Hidden("Oculto1", "Nombre de la pesona");
+        </div>
+
+    </div>
+</body>
+</html>

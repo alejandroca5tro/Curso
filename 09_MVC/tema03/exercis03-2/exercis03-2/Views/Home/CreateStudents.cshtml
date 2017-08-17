@@ -1,0 +1,34 @@
+﻿@using exercis03_2.Models
+@model Student[]
+
+@{
+    ViewBag.Title = "CreateStudents";
+    Layout = "~/Views/_Layout1.cshtml";
+}
+
+@if (Model.Length > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Trabaja</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Student s in Model)
+            {
+                <tr>
+                    <td>@s.StudentId</td>
+                    <td>@s.Name</td>
+                    <td>@s.Age</td>
+                    <td>@s.Works</td>
+                    <td>@s.Grade</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,34 @@
+﻿@model List<Practica7._1.Models.Barco>
+
+@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/_LayoutPage2.cshtml";
+}
+
+<h2>MARINEROS CONTRATADOS</h2>
+@Html.ActionLink("Principal", "Index", "Home")
+<br />
+<br />
+<table border="1">
+
+    @foreach (Practica7._1.Models.Barco b in Model)
+    {
+        <tr><td align="center"><b>@b.NombreBarco</b></td></tr>
+        <tr><td>
+            <table border="1">
+                <tr><th>Marinero</th><th>Cargo</th><th>Fecha T´titulo</th></tr>
+                @foreach (var m in b.tripulacion)
+                { 
+                    <tr>
+                        <td>@m.NombreTripulante</td>
+                        <td>@m.Cargo</td>
+                        <td>@m.FechaTituloNavegacion</td>
+                    </tr>
+                }
+            </table>
+        </td></tr>
+    }
+</table>
+<br />
+
+
